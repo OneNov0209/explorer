@@ -1,37 +1,71 @@
 {
-  "chainId": "symphony-testnet-4",
-  "chainName": "Symphony Testnet",
-  "rpc": "https://rpc-symphonyd.onenov.xyz",
-  "rest": "https://api-symphonyd.onenov.xyz",
-  "grpc": "https://grpc-symphonyd.onenov.xyz",
-  "stakeCurrency": {
-    "coinDenom": "MLD",
-    "coinMinimalDenom": "note",
-    "coinDecimals": 6
+  "chain_name": "symphony",
+  "chain_id": "symphony-testnet-4",
+  "pretty_name": "Symphony Testnet",
+  "network_type": "testnet",
+  "bech32_prefix": "symphony",
+  "daemon_name": "symphonyd",
+  "node_home": "$HOME/.symphony",
+  "key_algos": ["secp256k1"],
+  "slip44": 118,
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://rpc-symphonyd.onenov.xyz",
+        "provider": "OneNov"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://api-symphonyd.onenov.xyz",
+        "provider": "OneNov"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "https://grpc-symphonyd.onenov.xyz",
+        "provider": "OneNov"
+      }
+    ]
   },
-  "bip44": { "coinType": 118 },
-  "bech32Config": {
-    "bech32PrefixAccAddr": "symphony",
-    "bech32PrefixAccPub": "symphonypub",
-    "bech32PrefixValAddr": "symphonyvaloper",
-    "bech32PrefixValPub": "symphonyvaloperpub",
-    "bech32PrefixConsAddr": "symphonyvalcons",
-    "bech32PrefixConsPub": "symphonyvalconspub"
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "note",
+        "fixed_min_gas_price": 0.01,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
   },
-  "currencies": [
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "note"
+      }
+    ]
+  },
+  "assets": [
     {
-      "coinDenom": "MLD",
-      "coinMinimalDenom": "note",
-      "coinDecimals": 6
+      "description": "The native token of Symphony Testnet",
+      "denom_units": [
+        {
+          "denom": "note",
+          "exponent": 0
+        },
+        {
+          "denom": "MLD",
+          "exponent": 6
+        }
+      ],
+      "base": "note",
+      "name": "Symphony Testnet",
+      "display": "MLD",
+      "symbol": "MLD",
+      "logo_URIs": {
+        "png": "https://i.ibb.co/dhb3THh/Picsart-25-03-21-11-27-50-014.png"
+      }
     }
-  ],
-  "feeCurrencies": [
-    {
-      "coinDenom": "MLD",
-      "coinMinimalDenom": "note",
-      "coinDecimals": 6,
-      "gasPriceStep": { "low": 0.01, "average": 0.025, "high": 0.03 }
-    }
-  ],
-  "features": []
+  ]
 }
