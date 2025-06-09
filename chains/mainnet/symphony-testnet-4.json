@@ -1,77 +1,36 @@
 {
-  "chainId": "symphony-testnet-4",
-  "chainName": "Symphony",
-  "rpc": "https://rpc-symphonyd.onenov.xyz",
-  "rest": "https://api-symphonyd.onenov.xyz",
-  "bip44": {
-    "coinType": 118
-  },
-  "coinType": 118,
-  "bech32Config": {
-    "bech32PrefixAccAddr": "symphony",
-    "bech32PrefixAccPub": "symphonypub",
-    "bech32PrefixValAddr": "symphonyvaloper",
-    "bech32PrefixValPub": "symphonyvaloperpub",
-    "bech32PrefixConsAddr": "symphonyvalcons",
-    "bech32PrefixConsPub": "symphonyvalconspub"
-  },
-  "currencies": [
-    {
-      "coinDenom": "MLD",
-      "coinMinimalDenom": "unote",
-      "coinDecimals": 6,
-      "coinGeckoId": "unknown"
-    }
-  ],
-  "feeCurrencies": [
-    {
-      "coinDenom": "MLD",
-      "coinMinimalDenom": "unote",
-      "coinDecimals": 6,
-      "coinGeckoId": "unknown",
-      "gasPriceStep": {
-        "low": 0.01,
-        "average": 0.025,
-        "high": 0.03
-      }
-    }
-  ],
-  "stakeCurrency": {
-    "coinDenom": "MLD",
-    "coinMinimalDenom": "unote",
-    "coinDecimals": 6,
-    "coinGeckoId": "unknown"
-  },
-  "gasPriceStep": {
-    "low": 0.01,
-    "average": 0.025,
-    "high": 0.03
-  },
-  "features": [],
-  "apis": {
-    "rpc": [
-      {
-        "address": "https://rpc-symphonyd.onenov.xyz",
-        "provider": "OneNov"
-      },
-      {
-        "address": "https://rpc-symphonyd.vinjan.xyz/",
-        "provider": "Backup"
-      }
+    "chain_name": "symphony-testnet-4",
+    "api": [
+        {
+            "address": "https://api-symphonyd.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
+            "address": "https://api-symphonyd.vinjan.xyz",
+            "provider": "Vinjan (Backup)"
+        }
     ],
-    "rest": [
-      {
-        "address": "https://api-symphonyd.onenov.xyz",
-        "provider": "OneNov"
-      },
-      {
-        "address": "https://api-symphonyd.vinjan.xyz/",
-        "provider": "Backup"
-      }
-    ]
-  },
-  "logo": "https://i.ibb.co.com/dbh3THn/Picsart-25-03-21-11-27-50-014.png",
-  "theme": {
-    "primaryColor": "#812cdb"
-  }
+    "rpc": [
+        {
+            "address": "https://rpc-symphonyd.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
+            "address": "https://rpc-symphonyd.vinjan.xyz",
+            "provider": "Vinjan (Backup)"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "1000",
+    "assets": [{
+        "base": "note",
+        "symbol": "MLD",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": "https://i.ibb.co.com/dhb3THh/Picsart-25-03-21-11-27-50-014.png"
+    }],
+    "addr_prefix": "symphony",
+    "theme_color": "#812cd6",
+    "logo": "https://i.ibb.co.com/dhb3THh/Picsart-25-03-21-11-27-50-014.png"
 }
