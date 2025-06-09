@@ -14,7 +14,7 @@
     ],
     "sdk_version": "0.47.5",
     "coin_type": "60",
-    "min_tx_fee": "10000000000000000", // 0.01 UPTICK (18 decimals)
+    "min_tx_fee": "10000000000000000",
     "assets": [{
         "base": "auptick",
         "symbol": "UPTICK",
@@ -23,6 +23,6 @@
         "logo": "https://i.ibb.co.com/tPzqc4fh/Picsart-25-04-09-01-27-16-421.png"
     }],
     "addr_prefix": "uptick",
-    "theme_color": "#6F4DF2", // Purple accent from Uptick branding
+    "theme_color": "#6F4DF2",
     "logo": "https://i.ibb.co.com/tPzqc4fh/Picsart-25-04-09-01-27-16-421.png"
 }
