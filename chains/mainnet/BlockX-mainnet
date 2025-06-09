@@ -1,0 +1,34 @@
+{
+    "chain_name": "blockx_19191-1",
+    "api": [
+        {
+            "address": "https://api.blockxnet.com",
+            "provider": "OneNov"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.blockxnet.com",
+            "provider": "OneNov"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "60",
+    "min_tx_fee": "10000000000000000",
+    "assets": [{
+        "base": "abcx",
+        "symbol": "BCX",
+        "exponent": "18",
+        "coingecko_id": "unknown",
+        "logo": "https://i.ibb.co.com/fGLGcVVH/Picsart-25-03-29-22-45-51-494.png"
+    }],
+    "addr_prefix": "blockx",
+    "theme_color": "#1E90FF",
+    "logo": "https://i.ibb.co.com/fGLGcVVH/Picsart-25-03-29-22-45-51-494.png",
+    "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+    ]
+}
