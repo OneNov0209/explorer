@@ -1,0 +1,28 @@
+{
+    "chain_name": "Story-test",
+    "api": [
+        {
+            "address": "https://api-story-testnet.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://story-testnet-rpc.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uip",
+        "symbol": "IP",
+        "exponent": "18",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "story",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1820303986349805569/MKfPfLtz_400x400.jpg"
+}

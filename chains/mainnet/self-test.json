@@ -1,0 +1,32 @@
+{
+    "chain_name": "Selfchain-Testnet",
+    "api": [
+        {
+            "address": "https://api-selfchain.Winnode.xyz",
+            "provider": "Winnode"
+        },
+        {
+            "address": "https://selfchain.api.t.stavr.tech",
+            "provider": "stavr"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc-selfchain.Winnode.xyz",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "uslf",
+        "symbol": "SLF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://pbs.twimg.com/profile_images/1879603544120008704/z2WKYx3z_400x400.jpg"
+    }],
+    "addr_prefix": "self",
+    "theme_color": "#ce4747",
+    "logo": "https://pbs.twimg.com/profile_images/1879603544120008704/z2WKYx3z_400x400.jpg"
+}
