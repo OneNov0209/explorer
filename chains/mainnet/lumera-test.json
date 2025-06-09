@@ -2,8 +2,8 @@
     "chain_name": "lumera-test",
     "api": [
         {
-            "address": "https://api-lumera.winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://api-lumera.onenov.xyz",
+            "provider": "OneNov"
         },
         {
             "address": "https://https://lcd.testnet.lumera.io",
@@ -12,8 +12,8 @@
     ],
     "rpc": [
         {
-            "address": "https://api-lumera.winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://api-lumera.onenov.xyz",
+            "provider": "OneNov"
         },
         {
             "address": "https://rpc.testnet.lumera.io",
