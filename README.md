@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 <div align="center">
 
-![Ping Wallet](./public/logo.svg)
+![Ping Wallet](./public/logo.jpg)
 
-<h1>Winnode explorer</h1>
+<h1>OneNov explorer</h1>
 
-**Winnode explorer is not only an explorer but also a wallet and more ... 🛠**
+**OneNov explorer is not only an explorer but also a wallet and more ... 🛠**
 
 [![version](https://img.shields.io/github/tag/ping-pub/explorer.svg)](https://github.com/ping-pub/explorer/releases/latest)
 [![GitHub](https://img.shields.io/github/license/ping-pub/explorer.svg)](https://github.com/ping-pub/explorer/blob/master/LICENSE)
