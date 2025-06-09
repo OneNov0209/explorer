@@ -3,7 +3,7 @@
     "api": [
         {
             "address": "https://api-empeiria.Winnode.xyz",
-            "provider": "Winnode"
+            "provider": "OneNov"
         },
         {
             "address": "https://empeiria-testnet-api.itrocket.net",
@@ -13,7 +13,7 @@
     "rpc": [
         {
             "address": "https://api-empeiria.Winnode.xyz",
-            "provider": "Winnode"
+            "provider": "OneNov"
         },
         {
             "address": "https://empeiria-testnet-rpc.itrocket.net",
