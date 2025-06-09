@@ -18,7 +18,7 @@
   "currencies": [
     {
       "coinDenom": "MLD",
-      "coinMinimalDenom": "note",
+      "coinMinimalDenom": "unote",
       "coinDecimals": 6,
       "coinGeckoId": "unknown"
     }
@@ -26,7 +26,7 @@
   "feeCurrencies": [
     {
       "coinDenom": "MLD",
-      "coinMinimalDenom": "note",
+      "coinMinimalDenom": "unote",
       "coinDecimals": 6,
       "coinGeckoId": "unknown",
       "gasPriceStep": {
@@ -38,7 +38,7 @@
   ],
   "stakeCurrency": {
     "coinDenom": "MLD",
-    "coinMinimalDenom": "note",
+    "coinMinimalDenom": "unote",
     "coinDecimals": 6,
     "coinGeckoId": "unknown"
   },
@@ -70,8 +70,8 @@
       }
     ]
   },
-  "logo": "https://i.ibb.co.com/dhb3THh/Picsart-25-03-21-11-27-50-014.png",
+  "logo": "https://i.ibb.co.com/dbh3THn/Picsart-25-03-21-11-27-50-014.png",
   "theme": {
-    "primaryColor": "#812cd6"
+    "primaryColor": "#812cdb"
   }
 }
