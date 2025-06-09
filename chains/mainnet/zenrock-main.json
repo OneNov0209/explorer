@@ -1,0 +1,28 @@
+{
+    "chain_name": "zenrock-Main",
+    "api": [
+        {
+            "address": "https://zenrock-mainnet-api.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://zenrock-mainnet-rpc.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "urock",
+        "symbol": "ROCK",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "zen",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1829585852831285259/EAxFe-gB_400x400.png"
+}

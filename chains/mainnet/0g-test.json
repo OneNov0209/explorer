@@ -1,0 +1,28 @@
+{
+    "chain_name": "0g-test",
+    "api": [
+        {
+            "address": "https://og-testnet-api.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://og-testnet-rpc.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "60",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "a0g",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1841632086475866113/n6vPDZqb_400x400.jpg"
+}

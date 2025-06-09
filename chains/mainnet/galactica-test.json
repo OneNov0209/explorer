@@ -1,0 +1,28 @@
+{
+    "chain_name": "galactica-test",
+    "api": [
+        {
+            "address": "https://galactica-testnet-api.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://galactica-testnet-rpc.itrocket.net",
+            "provider": "Winnode"
+        }
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": "60",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "agnet",
+        "symbol": "GNET",
+        "exponent": "18",
+        "coingecko_id": "unknown",
+        "logo": ""
+    }],
+    "addr_prefix": "gala",
+    "theme_color": "#812cd6",
+    "logo": "https://pbs.twimg.com/profile_images/1853803085899923456/euxWKp-y_400x400.jpg"
+}
