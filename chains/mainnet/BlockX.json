@@ -3,18 +3,20 @@
     "api": [
         {
             "address": "https://api.blockxnet.com",
-            "provider": "blockx"
+            "provider": "BlockX"
         }
     ],
     "rpc": [
         {
             "address": "https://rpc.blockxnet.com",
-            "provider": "blockx"
+            "provider": "BlockX"
         }
     ],
     "sdk_version": "0.45.7",
     "coin_type": "60",
     "min_tx_fee": "10000000000000000",
+    "staking_denom": "abcx",
+    "bond_denom": "abcx",
     "assets": [{
         "base": "abcx",
         "symbol": "BCX",
@@ -22,6 +24,14 @@
         "coingecko_id": "unknown",
         "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
     }],
+    "bech32_config": {
+        "bech32PrefixAccAddr": "blockx",
+        "bech32PrefixAccPub": "blockxpub",
+        "bech32PrefixValAddr": "blockxvaloper",
+        "bech32PrefixValPub": "blockxvaloperpub",
+        "bech32PrefixConsAddr": "blockxvalcons",
+        "bech32PrefixConsPub": "blockxvalconspub"
+    },
     "addr_prefix": "blockx",
     "theme_color": "#1E90FF",
     "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg",
@@ -29,6 +39,7 @@
         "ibc-transfer",
         "ibc-go",
         "eth-address-gen",
-        "eth-key-sign"
+        "eth-key-sign",
+        "cosmwasm"
     ]
 }
