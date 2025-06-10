@@ -1,5 +1,8 @@
 {
-    "chain_name": "blockx",
+    "chain_name": "blockx_19191-1",
+    "chain_type": "hybrid",
+    "network_type": "mainnet",
+    "status": "live",
     "api": [
         {
             "address": "https://api.blockxnet.com",
@@ -15,8 +18,15 @@
     "sdk_version": "0.45.7",
     "coin_type": "60",
     "min_tx_fee": "10000000000000000",
-    "staking_denom": "abcx",
-    "bond_denom": "abcx",
+    "staking": {
+        "staking_denom": "abcx",
+        "bond_denom": "abcx",
+        "min_delegation": "1000000000000000000"
+    },
+    "governance": {
+        "enabled": true,
+        "min_deposit": "10000000000000000000"
+    },
     "assets": [{
         "base": "abcx",
         "symbol": "BCX",
@@ -32,14 +42,37 @@
         "bech32PrefixConsAddr": "blockxvalcons",
         "bech32PrefixConsPub": "blockxvalconspub"
     },
-    "addr_prefix": "blockx",
-    "theme_color": "#1E90FF",
-    "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg",
     "features": [
         "ibc-transfer",
         "ibc-go",
         "eth-address-gen",
         "eth-key-sign",
-        "cosmwasm"
-    ]
+        "cosmos-staking",
+        "cosmos-governance",
+        "cosmwasm",
+        "state-sync"
+    ],
+    "modules": [
+        "staking",
+        "governance",
+        "ibc",
+        "bank",
+        "crisis",
+        "distribution",
+        "evm",
+        "mint",
+        "slashing",
+        "wasm"
+    ],
+    "theme": {
+        "is_cosmos": true,
+        "is_evm": true,
+        "ui": {
+            "show_staking": true,
+            "show_governance": true,
+            "show_ibc": true,
+            "show_supply": true,
+            "show_parameters": true
+        }
+    }
 }
