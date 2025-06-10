@@ -1,34 +1,34 @@
 {
-    "nama_chain": "blockx",
+    "chain_name": "blockx_19191-1",
     "api": [
         {
-            "alamat": "https://api.blockxnet.com",
-            "penyedia": "BlockX"
+            "address": "https://api.blockxnet.com",
+            "provider": "BlockX"
         }
     ],
     "rpc": [
         {
-            "alamat": "https://rpc.blockxnet.com",
-            "penyedia": "BlockX"
+            "address": "https://rpc.blockxnet.com",
+            "provider": "BlockX"
         }
     ],
-    "versi_sdk": "0.45.7",
-    "tipe_koin": "60",
-    "biaya_minimal_tx": "10000000000000000",
-    "aset": [{
-        "dasar": "abcx",
-        "simbol": "BCX",
-        "desimal": "18",
-        "id_coingecko": "unknown",
+    "sdk_version": "0.45.7",
+    "coin_type": "60",
+    "min_tx_fee": "10000000000000000",
+    "assets": [{
+        "base": "abcx",
+        "symbol": "BCX",
+        "exponent": "18",
+        "coingecko_id": "unknown",
         "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
     }],
-    "awalan_alamat": "blockx",
-    "warna_tema": "#1E90FF",
+    "addr_prefix": "blockx",
+    "theme_color": "#1E90FF",
     "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg",
-    "fitur": [
-        "transfer-ibc",
+    "features": [
+        "ibc-transfer",
         "ibc-go",
-        "pembuatan-alamat-eth",
-        "signature-kunci-eth"
+        "eth-address-gen",
+        "eth-key-sign"
     ]
 }
