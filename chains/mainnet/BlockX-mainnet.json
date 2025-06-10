@@ -1,5 +1,5 @@
 {
-    "chain_name": "blockx_19191-1",
+    "chain_name": "blockx-mainnet",
     "api": [
         {
             "address": "https://api.blockxnet.com",
