@@ -3,13 +3,13 @@
     "api": [
         {
             "address": "https://api.blockxnet.com",
-            "provider": "OneNov"
+            "provider": "blockx"
         }
     ],
     "rpc": [
         {
             "address": "https://rpc.blockxnet.com",
-            "provider": "OneNov"
+            "provider": "blockx"
         }
     ],
     "sdk_version": "0.45.7",
@@ -20,11 +20,11 @@
         "symbol": "BCX",
         "exponent": "18",
         "coingecko_id": "unknown",
-        "logo": "https://i.ibb.co.com/fGLGcVVH/Picsart-25-03-29-22-45-51-494.png"
+        "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
     }],
     "addr_prefix": "blockx",
     "theme_color": "#1E90FF",
-    "logo": "https://i.ibb.co.com/fGLGcVVH/Picsart-25-03-29-22-45-51-494.png",
+    "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg",
     "features": [
         "ibc-transfer",
         "ibc-go",
