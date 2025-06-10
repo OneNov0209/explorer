@@ -2,13 +2,13 @@
     "chain_name": "blockx",
     "api": [
         {
-            "address": "https://blockx-mainnet-api.itrocket.net",
+            "address": "https://api.blockxnet.com",
             "provider": "OneNov"
         }
     ],
     "rpc": [
         {
-            "address": "https://blockx-mainnet-rpc.itrocket.net",
+            "address": "https://rpc.blockxnet.com",
             "provider": "OneNov"
         }
     ],
