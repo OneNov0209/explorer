@@ -2,7 +2,7 @@
     "chain_name": "empeiria-test",
     "api": [
         {
-            "address": "https://api-empeiria.Winnode.xyz",
+            "address": "https://empe-api.onenov.xyz/",
             "provider": "OneNov"
         },
         {
@@ -12,7 +12,7 @@
     ],
     "rpc": [
         {
-            "address": "https://api-empeiria.Winnode.xyz",
+            "address": "http://empe-rpc.onenov.xyz/",
             "provider": "OneNov"
         },
         {
