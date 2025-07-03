@@ -1,12 +1,12 @@
 {
-    "chain_name": "lumera-test",
+    "chain_name": "lumera-testnet-2",
     "api": [
         {
             "address": "https://api-lumera.onenov.xyz",
             "provider": "OneNov"
         },
         {
-            "address": "https://lcd.testnet.lumera.io",
+            "address": "https://lumera-testnet-api.polkachu.com",
             "provider": "Backup"
         }
     ],
@@ -20,7 +20,7 @@
             "provider": "Backup"
         }
     ],
-    "sdk_version": "0.46.1",
+    "sdk_version": "0.50.12",
     "coin_type": "118",
     "min_tx_fee": "800",
     "assets": [{
