@@ -4,12 +4,20 @@
         {
             "address": "https://empe-api.onenov.xyz/",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://lcd-testnet.empe.io/",
+            "provider": "Backup"
         }
     ],
     "rpc": [
         {
             "address": "http://empe-rpc.onenov.xyz/",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://rpc-testnet.empe.io/",
+            "provider": "Backup"
         }
     ],
     "sdk_version": "0.47.17",
@@ -22,7 +30,7 @@
         "coingecko_id": "unknown",
         "logo": ""
     }],
-    "addr_prefix": "source",
+    "addr_prefix": "empe",
     "theme_color": "#812cd6",
     "logo": "https://pbs.twimg.com/profile_images/1887069794798632960/IvxbLJcg_400x400.jpg"
 }
