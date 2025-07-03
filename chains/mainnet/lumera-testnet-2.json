@@ -3,7 +3,7 @@
     "api": [
         {
             "address": "https://lumera-testnet-api.polkachu.com",
-            "provider": "Winnode"
+            "provider": "OneNov"
         },
         {
             "address": "https://lcd.testnet.lumera.io",
