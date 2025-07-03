@@ -1,26 +1,26 @@
 {
-    "chain_name": "lumera-testnet-2",
+    "chain_name": "lumera-test",
     "api": [
         {
-            "address": "https://api-lumera.onenov.xyz",
-            "provider": "OneNov"
+            "address": "https://lumera-testnet-api.polkachu.com",
+            "provider": "Winnode"
         },
         {
-            "address": "https://lumera-testnet-api.polkachu.com",
+            "address": "https://lcd.testnet.lumera.io",
             "provider": "Backup"
         }
     ],
     "rpc": [
         {
-            "address": "https://api-lumera.onenov.xyz",
-            "provider": "OneNov"
+            "address": "https://lumera-testnet-rpc.polkachu.com",
+            "provider": "Winnode"
         },
         {
             "address": "https://rpc.testnet.lumera.io",
             "provider": "Backup"
         }
     ],
-    "sdk_version": "0.50.12",
+    "sdk_version": "0.46.1",
     "coin_type": "118",
     "min_tx_fee": "800",
     "assets": [{
