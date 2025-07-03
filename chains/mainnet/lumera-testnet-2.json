@@ -6,7 +6,7 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://lcd.testnet.lumera.io",
+      "address": "https://lumera-testnet-api.polkachu.com",
       "provider": "Lumera (Backup)"
     }
   ],
