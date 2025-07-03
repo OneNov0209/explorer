@@ -1,52 +1,38 @@
 {
   "chain_name": "lumera-testnet-2",
-  "status": "live",
-  "network_type": "testnet",
-  "pretty_name": "Lumera Testnet 2",
-  "chain_id": "lumera-testnet-2",
-  "sdk_version": "0.50.12",
-  "cosmos_sdk_version": "v0.50.12",
-  "slip44": 118,
-  "bech32_prefix": "lumera",
-  "daemon_name": "lumerad",
-  "node_home": "$HOME/.lumera",
-  "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/LumeraProtocol/lumera-networks/master/testnet-2/genesis.json"
-  },
-  "seeds": [
-    {
-      "id": "xxxxxx@seed-node-ip:26656",
-      "provider": "Lumera"
-    }
-  ],
-  "peers": [],
-  "rpc": [
-    {
-      "address": "https://rpc-lumera.onenov.xyz",
-      "provider": "OneNov"
-    }
-  ],
   "api": [
     {
       "address": "https://api-lumera.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://lcd.testnet.lumera.io",
+      "provider": "Lumera (Backup)"
     }
   ],
-  "explorers": [
+  "rpc": [
     {
-      "kind": "ping.pub",
-      "url": "https://explorer.onenov.xyz/lumera-testnet-2",
-      "account_page": "/account/{address}"
+      "address": "https://rpc-lumera.onenov.xyz",
+      "provider": "OneNov"
+    },
+    {
+      "address": "https://rpc.testnet.lumera.io",
+      "provider": "Lumera (Backup)"
     }
   ],
-  "currencies": [
+  "sdk_version": "0.50.12",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
     {
-      "denom": "ulume",
+      "base": "ulume",
+      "symbol": "LUME",
+      "exponent": "6",
       "coingecko_id": "unknown",
-      "decimals": 6,
-      "display_name": "LUME"
+      "logo": ""
     }
   ],
-  "logo": "https://pbs.twimg.com/profile_images/1914464060265127936/z2ONvvpp_400x400.png",
-  "theme_color": "#812cd6"
+  "addr_prefix": "lumera",
+  "theme_color": "#812cd6",
+  "logo": "https://pbs.twimg.com/profile_images/1914464060265127936/z2ONvvpp_400x400.png"
 }
