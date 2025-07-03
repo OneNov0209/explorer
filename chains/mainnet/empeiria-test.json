@@ -4,20 +4,12 @@
         {
             "address": "https://empe-api.onenov.xyz/",
             "provider": "OneNov"
-        },
-        {
-            "address": "https://empeiria-testnet-api.itrocket.net",
-            "provider": "Backup"
         }
     ],
     "rpc": [
         {
             "address": "http://empe-rpc.onenov.xyz/",
             "provider": "OneNov"
-        },
-        {
-            "address": "https://empeiria-testnet-rpc.itrocket.net",
-            "provider": "Backup"
         }
     ],
     "sdk_version": "0.47.17",
