@@ -20,7 +20,7 @@
             "provider": "Winnode"
         }
     ],
-    "sdk_version": "0.46.1",
+    "sdk_version": "0.50.13",
     "coin_type": "60",
     "min_tx_fee": "800",
     "assets": [{
