@@ -1,32 +1,26 @@
 {
   "chain_name": "axone-mainnet",
   "chain_id": "axone-1",
-  "api": [
-    {
-      "address": "https://api-axone-mainnet.onenov.xyz",
-      "provider": "OneNov"
-    },
-    {
-      "address": "https://api-axone.winsnip.site",
-      "provider": "Winsnip"
-    }
-  ],
   "rpc": [
     {
-      "address": "https://rpc-axone-mainnet.onenov.xyz",
+      "address": "https://rpc-axone-mainnet.onenov.xyz:21657",
       "provider": "OneNov"
-    },
+    }
+  ],
+  "api": [
     {
-      "address": "https://rpc-axone.winsnip.site",
-      "provider": "Winsnip"
+      "address": "https://api-axone-mainnet.onenov.xyz:11317",
+      "provider": "OneNov"
     }
   ],
   "rest": [
     {
-      "address": "https://api-axone-mainnet.onenov.xyz",
+      "address": "https://api-axone-mainnet.onenov.xyz:11317",
       "provider": "OneNov"
     }
   ],
+  "status": "https://rpc-axone-mainnet.onenov.xyz:21657/status",
+  "genesis": "https://rpc-axone-mainnet.onenov.xyz:21657/genesis",
   "sdk_version": "v0.50.9",
   "coin_type": "118",
   "min_tx_fee": "5000",
