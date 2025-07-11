@@ -1,5 +1,6 @@
 {
   "chain_name": "axone-mainnet",
+  "chain_id": "axone-1",
   "api": [
     {
       "address": "https://api-axone-mainnet.onenov.xyz",
@@ -18,6 +19,12 @@
     {
       "address": "https://rpc-axone.winsnip.site",
       "provider": "Winsnip"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api-axone-mainnet.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "sdk_version": "v0.50.13",
