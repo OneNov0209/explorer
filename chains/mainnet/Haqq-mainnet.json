@@ -3,21 +3,33 @@
   "chain_id": "haqq_11235-1",
   "api": [
     {
-      "address": "https://haqq.api.m.stavr.tech",
-      "provider": "Stavr"
+      "address": "https://haqq.api.onenov.xyz",
+      "provider": "OneNov"
     },
     {
       "address": "https://rest.cosmos.haqq.network",
-      "provider": "OneNov"
+      "provider": "Haqq Network"
     }
   ],
   "rpc": [
     {
-      "address": "https://haqq.rpc.m.stavr.tech",
-      "provider": "Stavr"
+      "address": "https://haqq.rpc.onenov.xyz",
+      "provider": "OneNov"
     },
     {
       "address": "https://rpc.tm.haqq.network",
+      "provider": "Haqq Network"
+    }
+  ],
+  "grpc": [
+    {
+      "address": "https://grpc-haqq.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "grpc_web": [
+    {
+      "address": "https://grpc-web-haqq.onenov.xyz",
       "provider": "OneNov"
     }
   ],
