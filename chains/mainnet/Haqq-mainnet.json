@@ -47,5 +47,6 @@
   ],
   "addr_prefix": "haqq",
   "theme_color": "#008D63",
-  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
+  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg",
+  "inflation": false
 }
