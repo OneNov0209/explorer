@@ -1,38 +1,38 @@
 {
-  "chain_name": "haqq-mainnet",
+  "chain_name": "axone-mainnet",
   "api": [
     {
-      "address": "https://haqq.api.onenov.xyz",
+      "address": "https://api-axone-mainnet.onenov.xyz",
       "provider": "OneNov"
     },
     {
-      "address": "https://rest.cosmos.haqq.network",
-      "provider": "Haqq Network"
+      "address": "https://api-axone.winsnip.site",
+      "provider": "Winsnip"
     }
   ],
   "rpc": [
     {
-      "address": "https://haqq.rpc.onenov.xyz",
+      "address": "https://rpc-axone-mainnet.onenov.xyz",
       "provider": "OneNov"
     },
     {
-      "address": "https://rpc.tm.haqq.network",
-      "provider": "Haqq Network"
+      "address": "https://rpc-axone.winsnip.site",
+      "provider": "Winsnip"
     }
   ],
-  "sdk_version": "v0.47.12",
-  "coin_type": "60",
+  "sdk_version": "v0.50.13",
+  "coin_type": "118",
   "min_tx_fee": "5000",
   "assets": [
     {
-      "base": "aislm",
-      "symbol": "ISLM",
-      "exponent": "18",
-      "coingecko_id": "islamic-coin",
-      "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
+      "base": "uaxone",
+      "symbol": "AXONE",
+      "exponent": "6",
+      "coingecko_id": "unknown",
+      "logo": "https://pbs.twimg.com/profile_images/1841523650043772928/EeZIYE7B.jpg"
     }
   ],
-  "addr_prefix": "haqq",
-  "theme_color": "#008D63",
-  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
+  "addr_prefix": "axone",
+  "theme_color": "#2a4365",
+  "logo": "https://pbs.twimg.com/profile_images/1841523650043772928/EeZIYE7B.jpg"
 }
