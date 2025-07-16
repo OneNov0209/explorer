@@ -1,6 +1,5 @@
 {
   "chain_name": "haqq-mainnet",
-  "chain_id": "haqq_11235-1",
   "api": [
     {
       "address": "https://haqq.api.onenov.xyz",
@@ -21,34 +20,19 @@
       "provider": "Haqq Network"
     }
   ],
-  "grpc": [
-    {
-      "address": "https://grpc-haqq.onenov.xyz",
-      "provider": "OneNov"
-    }
-  ],
-  "grpc_web": [
-    {
-      "address": "https://grpc-web-haqq.onenov.xyz",
-      "provider": "OneNov"
-    }
-  ],
-  "sdk_version": "0.47.12",
+  "sdk_version": "v0.47.12",
   "coin_type": "60",
-  "min_tx_fee": "10000000000000000",
+  "min_tx_fee": "5000",
   "assets": [
     {
       "base": "aislm",
       "symbol": "ISLM",
-      "exponent": 18,
+      "exponent": "18",
       "coingecko_id": "islamic-coin",
       "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
     }
   ],
   "addr_prefix": "haqq",
   "theme_color": "#008D63",
-  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg",
-  "features": {
-    "inflation": false
-  }
+  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
 }
