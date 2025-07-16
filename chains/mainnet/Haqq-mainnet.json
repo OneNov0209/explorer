@@ -49,8 +49,6 @@
   "theme_color": "#008D63",
   "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg",
   "features": {
-    "inflation": false,
-    "staking": true,
-    "governance": true
+    "inflation": false
   }
 }
