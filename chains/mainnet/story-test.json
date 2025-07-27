@@ -2,7 +2,7 @@
     "chain_name": "Story-test",
     "api": [
         {
-            "address": "https://api-story-testnet.itrocket.net",
+            "address": "https://api-story-aeneid.onenov.xyz",
             "provider": "Winnode"
         }
     ],
