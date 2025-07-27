@@ -2,8 +2,8 @@
     "chain_name": "Story-test",
     "api": [
         {
-            "address": "https://api-story-aeneid.onenov.xyz",
-            "provider": "Winnode"
+            "address": "https://api.story-aeneid.cumulo.me",
+            "provider": "OneNov"
         }
     ],
     "rpc": [
