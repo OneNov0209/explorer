@@ -21,11 +21,25 @@
   "theme_color": "#1E90FF",
   "assets": [
     {
+      "description": "Native token of BlockX",
+      "denom_units": [
+        {
+          "denom": "abcx",
+          "exponent": 0
+        },
+        {
+          "denom": "BCX",
+          "exponent": 18
+        }
+      ],
       "base": "abcx",
+      "name": "BlockX",
+      "display": "BCX",
       "symbol": "BCX",
-      "exponent": 18,
       "coingecko_id": "unknown",
-      "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
+      "logo_URIs": {
+        "png": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
+      }
     }
   ],
   "features": [
