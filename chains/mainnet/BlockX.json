@@ -3,49 +3,26 @@
   "chain_id": "blockx_19191-1",
   "api": [
     {
-      "address": "https://api.blockxnet.com",
-      "provider": "BlockX"
+      "address": "https://blockx-mainnet-api.itrocket.net",
+      "provider": "itrocket"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc.blockxnet.com",
-      "provider": "BlockX"
+      "address": "https://blockx-mainnet-rpc.itrocket.net",
+      "provider": "itrocket"
     }
   ],
-  "sdk_version": "0.45.7",
-  "coin_type": 60,
-  "min_tx_fee": "10000000000000000",
-  "addr_prefix": "blockx",
-  "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg",
-  "theme_color": "#1E90FF",
   "assets": [
     {
-      "description": "Native token of BlockX",
-      "denom_units": [
-        {
-          "denom": "abcx",
-          "exponent": 0
-        },
-        {
-          "denom": "BCX",
-          "exponent": 18
-        }
-      ],
       "base": "abcx",
-      "name": "BlockX",
-      "display": "BCX",
       "symbol": "BCX",
-      "coingecko_id": "unknown",
-      "logo_URIs": {
-        "png": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF_400x400.jpg"
-      }
+      "exponent": 18,
+      "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF.jpg"
     }
   ],
-  "features": [
-    "ibc-transfer",
-    "ibc-go",
-    "eth-address-gen",
-    "eth-key-sign"
-  ]
+  "logo": "https://pbs.twimg.com/profile_images/1571914336288776193/HmxJDHvF.jpg",
+  "staking_denom": "abcx",
+  "theme_color": "#1A1A1A",
+  "chain_type": "mainnet"
 }
