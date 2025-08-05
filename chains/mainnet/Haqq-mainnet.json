@@ -1,110 +1,46 @@
 {
-  "$schema": "../chain.schema.json",
   "chain_name": "haqq-mainnet",
   "chain_id": "haqq_11235-1",
-  "pretty_name": "Haqq Network",
-  "status": "live",
-  "network_type": "mainnet",
-  "bech32_prefix": "haqq",
-  "key_algos": ["ethsecp256k1"],
-  "slip44": 60,
-  
-  "apis": {
-    "rpc": [
-      {
-        "address": "https://rpc.haqq.network",
-        "provider": "Haqq Foundation"
-      },
-      {
-        "address": "https://haqq-rpc.publicnode.com",
-        "provider": "Allnodes"
-      }
-    ],
-    "rest": [
-      {
-        "address": "https://rest.haqq.network",
-        "provider": "Haqq Foundation"
-      }
-    ],
-    "grpc": [
-      {
-        "address": "grpc.haqq.network:443",
-        "provider": "Haqq Foundation"
-      }
-    ],
-    "evm": [
-      {
-        "address": "https://eth.haqq.network",
-        "provider": "Haqq Foundation"
-      }
-    ]
-  },
-
-  "explorers": [
+  "api": [
     {
-      "kind": "blockscout",
-      "url": "https://explorer.haqq.network",
-      "tx_page": "https://explorer.haqq.network/tx/${txHash}",
-      "account_page": "https://explorer.haqq.network/address/${accountAddress}"
-    },
-    {
-      "kind": "onenov-explorer",
-      "url": "https://explorer.onenov.xyz/haqq",
-      "tx_page": "https://explorer.onenov.xyz/haqq/tx/${txHash}",
-      "account_page": "https://explorer.onenov.xyz/haqq/address/${accountAddress}",
-      "validator_page": "https://explorer.onenov.xyz/haqq/validator/${validatorAddress}"
+      "address": "https://rest.cosmos.directory/haqq",
+      "provider": "Haqq Network"
     }
   ],
-
-  "fees": {
-    "fee_tokens": [
-      {
-        "denom": "aISLM",
-        "fixed_min_gas_price": 5000,
-        "low_gas_price": 5000,
-        "average_gas_price": 7500,
-        "high_gas_price": 10000
-      }
-    ]
-  },
-
+  "rpc": [
+    {
+      "address": "https://rpc.cosmos.directory/haqq",
+      "provider": "Haqq Network"
+    }
+  ],
+  "sdk_version": "v0.47.12",
+  "coin_type": 60,
+  "min_tx_fee": "5000",
+  "assets": [
+    {
+      "base": "aislm",
+      "symbol": "ISLM",
+      "exponent": 18,
+      "coingecko_id": "islamic-coin",
+      "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
+    }
+  ],
   "staking": {
     "staking_tokens": [
       {
-        "denom": "aISLM"
+        "denom": "aislm"
       }
     ],
-    "lock_duration": {
-      "time": "1209600s",
-      "height": "1814400"
-    }
+    "lock_duration": "1209600s"
   },
-
-  "logo": "https://storage.googleapis.com/haqq-network-assets/logo.png",
+  "addr_prefix": "haqq",
   "theme_color": "#008D63",
-
-  "assets": [
-    {
-      "base": "aISLM",
-      "symbol": "ISLM",
-      "exponent": 18,
-      "logo": "https://storage.googleapis.com/haqq-network-assets/islm.png",
-      "coingecko_id": "islamic-coin",
-      "price_api": "https://api.coingecko.com/api/v3/simple/price?ids=islamic-coin&vs_currencies=usd"
+  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg",
+  "node_info": {
+    "protocol_version": {
+      "p2p": "8",
+      "block": "11",
+      "app": "4"
     }
-  ],
-
-  "versions": {
-    "sdk_version": "0.47.12",
-    "compatible_versions": ["0.47.12"],
-    "binaries": {
-      "linux/amd64": "https://github.com/haqq-network/haqq/releases/download/v1.4.0/haqq_1.4.0_linux_amd64.tar.gz"
-    }
-  },
-
-  "developer_resources": {
-    "documentation": "https://docs.haqq.network",
-    "github": "https://github.com/haqq-network",
-    "whitepaper": "https://haqq.network/whitepaper.pdf"
   }
 }
