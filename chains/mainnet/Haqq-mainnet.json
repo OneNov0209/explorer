@@ -6,7 +6,7 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://rest.cosmos.haqq.network",
+      "address": "https://rest.cosmos.directory/haqq",
       "provider": "Haqq Network"
     }
   ],
@@ -16,7 +16,7 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://rpc.tm.haqq.network",
+      "address": "https://rpc.cosmos.directory/haqq",
       "provider": "Haqq Network"
     }
   ],
