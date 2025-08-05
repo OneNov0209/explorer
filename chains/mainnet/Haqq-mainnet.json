@@ -2,13 +2,13 @@
   "chain_name": "haqq-mainnet",
   "api": [
     {
-      "address": "https://rest.cosmos.directory/haqq"
+      "address": "https://rest.cosmos.directory/haqq",
       "provider": "Haqq Network"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc.cosmos.directory/haqq"
+      "address": "https://rpc.cosmos.directory/haqq",
       "provider": "Haqq Network"
     }
   ],
