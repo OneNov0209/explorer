@@ -1,15 +1,20 @@
 {
     "chain_name": "symphony",
     "api": [
+        
+        {
+            "address": "https://symphony-mainnet-api.onenov.xyz",
+            "provider": "OneNov"
+        },
         {
             "address": "https://sym-mainnet-api.corenodehq.xyz",
-            "provider": "OneNov"
+            "provider": "backup"
         }
     ],
     "rpc": [
         {
-            "address": "https://rpc-main-symphony.vinjan.xyz",
-            "provider": "Vinjan"
+            "address": "https://symphony-mainnet-rpc.onenov.xyz",
+            "provider": "OneNov"
         }
     ],
     "sdk_version": "v0.50.6-v26-osmo-2-symphony-3",
