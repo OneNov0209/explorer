@@ -2,22 +2,14 @@
     "chain_name": "kiichain-test",
     "api": [
         {
-            "address": "https://api-kiichain.Winnode.xyz/",
-            "provider": "Winnode"
-        },
-        {
             "address": "https://lcd.dos.sentry.testnet.v3.kiivalidator.com",
-            "provider": "Winnode"
+            "provider": "OneNov"
         }
     ],
     "rpc": [
         {
-            "address": "https://rpc-kiichain.Winnode.xyz/",
-            "provider": "Winnode"
-        },
-        {
             "address": "https://rpc.dos.sentry.testnet.v3.kiivalidator.com",
-            "provider": "Winnode"
+            "provider": "OneNov"
         }
     ],
     "sdk_version": "0.50.13",
