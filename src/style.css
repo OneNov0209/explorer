@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body {
+html, body {
   height: 100%;
 }
 
@@ -18,26 +18,56 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(10, 10, 10, 0.96) !important;
 }
 
 :root {
-  --text-main: #333;
-  --text-secondary: #4b525d;
-  --bg-active: #fbfbfc;
+  --text-main: rgba(255, 255, 255, 0.92);
+  --text-secondary: rgba(200, 200, 200, 0.75);
+  --bg-active: rgba(30, 30, 30, 0.85);
+  --bg-primary: rgba(20, 20, 20, 0.9);
+  --border-color: rgba(255, 255, 255, 0.12);
 }
 
 html.dark,
 html[data-theme='dark'] {
-  --text-main: #f7f7f7;
-  --text-secondary: #6f6e84;
-  --bg-active: #242b40;
+  --text-main: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(210, 210, 210, 0.8);
+  --bg-active: rgba(40, 40, 40, 0.9);
+  --bg-primary: rgba(15, 15, 15, 0.95);
 }
 
+/* Glassmorphism effect for all containers */
+.card, .table, .header, .modal, .dropdown, .panel, .sidebar {
+  background: rgba(30, 30, 30, 0.88) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px;
+}
+
+/* Table and list items */
 .table th:first-child {
   position: relative;
   z-index: 2;
+  background: rgba(40, 40, 40, 0.9) !important;
 }
 
+.table tr:hover, .list-item:hover {
+  background: rgba(50, 50, 50, 0.6) !important;
+}
+
+/* Buttons and interactive elements */
+button, .btn, .button {
+  background: rgba(45, 45, 45, 0.9) !important;
+  border: 1px solid var(--border-color) !important;
+  transition: all 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: rgba(60, 60, 60, 0.9) !important;
+}
+
+/* Animations */
 .slide-up-enter-active,
 .slide-up-leave-active {
   transition: all 0.25s ease-out;
@@ -51,4 +81,15 @@ html[data-theme='dark'] {
 .slide-up-leave-to {
   opacity: 0;
   transform: translateY(-calc(15%));
+}
+
+/* Scrollbar styling (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(20, 20, 20, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 4px;
 }
