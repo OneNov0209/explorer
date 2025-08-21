@@ -7,7 +7,7 @@
             "provider": "OneNov"
         },
         {
-            "address": "https://sym-mainnet-api.corenodehq.xyz",
+            "address": "https://rest.cosmos.directory/symphony",
             "provider": "backup"
         }
     ],
@@ -15,6 +15,10 @@
         {
             "address": "https://symphony-mainnet-rpc.onenov.xyz",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://rpc.cosmos.directory/symphony",
+            "provider": "backup"
         }
     ],
     "sdk_version": "v0.50.6-v26-osmo-2-symphony-3",
