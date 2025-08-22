@@ -6,8 +6,8 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://api-axone.winsnip.site",
-      "provider": "Winsnip"
+      "address": "https://rest.cosmos.directory/axone",
+      "provider": "Official"
     }
   ],
   "rpc": [
@@ -16,8 +16,8 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://rpc-axone.winsnip.site",
-      "provider": "Winsnip"
+      "address": "https://rpc.cosmos.directory/axone",
+      "provider": "Official"
     }
   ],
   "sdk_version": "v0.50.13",
