@@ -3,14 +3,14 @@
   "chain_id": "blockx_19191-1",
   "api": [
     {
-      "address": "https://blockx-mainnet-api.itrocket.net",
-      "provider": "itrocket"
+      "address": "https://rest.cosmos.directory/blockx",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
-      "address": "https://blockx-mainnet-rpc.itrocket.net",
-      "provider": "itrocket"
+      "address": "https://rpc.cosmos.directory/blockx",
+      "provider": "OneNov"
     }
   ],
   "assets": [
