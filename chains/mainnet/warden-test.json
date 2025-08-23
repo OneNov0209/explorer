@@ -2,8 +2,8 @@
     "chain_name": "Warden-Test",
     "api": [
         {
-            "address": "https://api-warden.Winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://api.chiado.wardenprotocol.org",
+            "provider": "OneNov"
         },
         {
             "address": "https://warden-testnet-api.itrocket.net",
@@ -12,8 +12,8 @@
     ],
     "rpc": [
         {
-            "address": "https://rpc-warden.Winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://rpc.chiado.wardenprotocol.org",
+            "provider": "OneNov"
         }
     ],
     "sdk_version": "0.46.1",
