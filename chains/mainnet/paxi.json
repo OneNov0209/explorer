@@ -1,46 +1,38 @@
 {
-    "chain_name": "paxi-mainnet",
-    "rpc": [
-        {
-            "address": "https://rpc-paxi.onenov.xyz",
-            "provider": "OneNov"
-        },
-        {
-            "address": "https://rpc.cosmos.directory/paxi",
-            "provider": "Official"
-        }
-    ],
-    "rest": [
-        {
-            "address": "https://api-paxi.onenov.xyz",
-            "provider": "OneNov"
-        },
-        {
-            "address": "https://rest.cosmos.directory/paxi",
-            "provider": "Official"
-        }
-    ],
-    "grpc": [
-        {
-            "address": "grpc-paxi.onenov.xyz:443",
-            "provider": "OneNov",
-            "insecure": true
-        }
-    ],
-    "sdk_version": "0.50.13",
-    "coin_type": "118",
-    "min_tx_fee": "0.03",
-    "assets": [
-        {
-            "base": "upaxi",
-            "symbol": "PAXI",
-            "exponent": 6,
-            "coingecko_id": "paxi",
-            "logo": "https://pbs.twimg.com/profile_images/1931297523953774593/lvP9gJNq.jpg"
-        }
-    ],
-    "addr_prefix": "paxi",
-    "theme_color": "#1DA1F2",
-    "logo": "https://pbs.twimg.com/profile_images/1931297523953774593/lvP9gJNq.jpg",
-    "features": []
+  "chain_name": "paxi-mainnet",
+  "api": [
+    {
+      "address": "https://api-paxi.onenov.xyz",
+      "provider": "OneNov"
+    },
+    {
+      "address": "https://rest.cosmos.directory/paxi",
+      "provider": "cosmos.directory"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-paxi.onenov.xyz",
+      "provider": "OneNov"
+    },
+    {
+      "address": "https://rpc.cosmos.directory/paxi",
+      "provider": "cosmos.directory"
+    }
+  ],
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "0.03",
+  "assets": [
+    {
+      "base": "upaxi",
+      "symbol": "PAXI",
+      "exponent": "6",
+      "coingecko_id": "paxi",
+      "logo": "https://pbs.twimg.com/profile_images/1931297523953774593/lvP9gJNq.jpg"
+    }
+  ],
+  "addr_prefix": "paxi",
+  "theme_color": "#2d5cf6",
+  "logo": "https://pbs.twimg.com/profile_images/1931297523953774593/lvP9gJNq.jpg"
 }
