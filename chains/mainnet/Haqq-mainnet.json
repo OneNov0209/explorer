@@ -22,7 +22,7 @@
       "symbol": "ISLM",
       "exponent": 18,
       "coingecko_id": "islamic-coin",
-      "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg"
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/haqq-logo.png"
     }
   ],
   "staking": {
@@ -35,7 +35,7 @@
   },
   "addr_prefix": "haqq",
   "theme_color": "#008D63",
-  "logo": "https://pbs.twimg.com/profile_images/1938198657137889280/C0xka4Tp.jpg",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/haqq-logo.png",
   "node_info": {
     "protocol_version": {
       "p2p": "8",
