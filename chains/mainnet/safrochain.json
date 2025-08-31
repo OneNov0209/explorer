@@ -1,30 +1,28 @@
 {
-  "chain_name": "safrochain",
-  "chain_id": "safro-testnet-1",
-  "api": [
-    {
-      "address": "https://rest.testnet.safrochain.com",
-      "provider": "OneNov"
-    }
-  ],
-  "rpc": [
-    {
-      "address": "https://rpc.testnet.safrochain.com",
-      "provider": "OneNov"
-    }
-  ],
-  "sdk_version": "0.50.13",
-  "coin_type": "118",
-  "min_tx_fee": "0.03",
-  "assets": [
-    {
-      "base": "usafro",
-      "symbol": "SAF",
-      "exponent": "6",
-      "coingecko_id": "unknown",
-      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/safrochain-logo.png"
-    }
-  ],
-  "addr_prefix": "addr_safro",
-  "theme_color": "#812cd6"
+    "chain_name": "safrochain",
+    "api": [
+        {
+            "address": "https://rest.testnet.safrochain.com",
+            "provider": "OneNov"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.testnet.safrochain.com",
+            "provider": "OneNov"
+        }
+    ],
+    "sdk_version": "0.50.13",
+    "coin_type": "118",
+    "min_tx_fee": "0.03",
+    "assets": [{
+        "base": "usaf",
+        "symbol": "SAF",
+        "exponent": "6",
+        "coingecko_id": "safro",
+        "logo": ""
+    }],
+    "addr_prefix": "addr_safro",
+    "theme_color": "#812cd6",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/safrochain-logo.png"
 }
