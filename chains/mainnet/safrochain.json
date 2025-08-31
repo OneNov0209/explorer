@@ -25,13 +25,6 @@
       "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/safrochain-logo.png"
     }
   ],
-  "addr_prefix": {
-    "bech32PrefixAccAddr": "addr_safro",
-    "bech32PrefixAccPub": "addr_safropub",
-    "bech32PrefixValAddr": "addr_safrovaloper",
-    "bech32PrefixValPub": "addr_safrovaloperpub",
-    "bech32PrefixConsAddr": "addr_safrovalcons",
-    "bech32PrefixConsPub": "addr_safrovalconspub"
-  },
+  "addr_prefix": "addr_safro",
   "theme_color": "#812cd6"
 }
