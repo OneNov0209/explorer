@@ -3,7 +3,7 @@
   "chain_id": "blockx_19191-1",
   "api": [
     {
-      "address": "https://rest.cosmos.directory/blockx",
+      "address": "https://api.blockxnet.com",
       "provider": "OneNov"
     }
   ],
