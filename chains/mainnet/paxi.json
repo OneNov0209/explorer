@@ -4,13 +4,13 @@
     {
       "address": "https://rest.cosmos.directory/paxi",
       "provider": "cosmos.directory"
-    },
+    }
   ],
   "rpc": [
     {
       "address": "https://rpc.cosmos.directory/paxi",
       "provider": "cosmos.directory"
-    },
+    }
   ],
   "sdk_version": "0.50.13",
   "coin_type": "118",
