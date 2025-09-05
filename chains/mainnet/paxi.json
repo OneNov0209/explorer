@@ -2,23 +2,15 @@
   "chain_name": "paxi-mainnet",
   "api": [
     {
-      "address": "https://api-paxi.onenov.xyz",
-      "provider": "OneNov"
-    },
-    {
       "address": "https://rest.cosmos.directory/paxi",
       "provider": "cosmos.directory"
-    }
+    },
   ],
   "rpc": [
     {
-      "address": "https://rpc-paxi.onenov.xyz",
-      "provider": "OneNov"
-    },
-    {
       "address": "https://rpc.cosmos.directory/paxi",
       "provider": "cosmos.directory"
-    }
+    },
   ],
   "sdk_version": "0.50.13",
   "coin_type": "118",
