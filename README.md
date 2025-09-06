@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://i.ibb.co/ch0T19ps/Picsart-25-03-22-00-26-38-360.png" alt="Ping Wallet" style="border-radius: 50%; width: 120px; height: 120px;" />
+  <img src="https://avatars.githubusercontent.com/u/95606017?s=400&u=943f59ba136a55249c0d654a7a66c9933e7843c2&v=4" alt="Ping Wallet" style="border-radius: 50%; width: 120px; height: 120px;" />
   <h1>OneNov explorer</h1>
 </div>>
 
