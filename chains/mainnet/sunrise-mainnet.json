@@ -1,0 +1,37 @@
+{
+    "chain_name": "Sunrise-Mainnet",
+    "api": [
+        {
+            "address": "https://api-sunrise.winnode.xyz",
+            "provider": "Winnode"
+        },
+        {
+            "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318",
+            "provider": "Sunrise"
+        }
+        
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc-sunrise.winnode.xyz",
+            "provider": "Winnode"
+        },
+        {
+            "address": "https://a.consensus.sunrise-1.sunriselayer.io",
+            "provider": "Sunrise"
+        }
+    ],
+    "sdk_version": "0.45.7",
+    "coin_type": "118",
+    "min_tx_fee": "0.03",
+    "assets": [{
+        "base": "uvrise",
+        "symbol": "VRISE",
+        "exponent": "6",
+        "coingecko_id": "rise",
+        "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunrise-logo.png"
+    }],
+    "addr_prefix": "sunrise",
+    "theme_color": "#812cd6",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunrise-logo.png"
+}
