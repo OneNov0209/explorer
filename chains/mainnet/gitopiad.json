@@ -1,0 +1,38 @@
+{
+  "chain_name": "gitopia",
+  "api": [
+    {
+      "address": "https://gitopia-api.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://gitopia.api.m.stavr.tech",
+      "provider": "Stavr"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://gitopia-rpc.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://gitopia.rpc.m.stavr.tech",
+      "provider": "Stavr"
+    }
+  ],
+  "sdk_version": "0.47.13",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "ulore",
+      "symbol": "LORE",
+      "exponent": "6",
+      "coingecko_id": "unknown",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
+    }
+  ],
+  "addr_prefix": "gitopia",
+  "theme_color": "#5e4b8b",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
+}
