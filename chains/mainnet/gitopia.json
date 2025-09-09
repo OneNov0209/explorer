@@ -31,7 +31,7 @@
   ],
   "grpc": [
     {
-      "address": "https://grpc-gitopia.onenov.xyz",
+      "address": "grpc-gitopia.onenov.xyz:443",
       "provider": "OneNov"
     }
   ],
