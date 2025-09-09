@@ -29,6 +29,12 @@
       "provider": "Stavr"
     }
   ],
+  "grpc": [
+    {
+      "address": "https://grpc-gitopia.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
   "sdk_version": "0.47.13",
   "coin_type": "118",
   "min_tx_fee": "800",
