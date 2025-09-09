@@ -2,6 +2,10 @@
   "chain_name": "gitopia",
   "api": [
     {
+      "address": "https://api-gitopia.onenov.xyz",
+      "provider": "OneNov"
+    },
+    {
       "address": "https://gitopia-api.polkachu.com",
       "provider": "Polkachu"
     },
@@ -11,6 +15,10 @@
     }
   ],
   "rpc": [
+    {
+      "address": "https://rpc-gitopia.onenov.xyz",
+      "provider": "OneNov"
+    },
     {
       "address": "https://gitopia-rpc.polkachu.com",
       "provider": "Polkachu"
@@ -23,6 +31,7 @@
   "sdk_version": "0.47.13",
   "coin_type": "118",
   "min_tx_fee": "800",
+  "addr_prefix": "gitopia",
   "assets": [
     {
       "base": "ulore",
@@ -32,7 +41,6 @@
       "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
     }
   ],
-  "addr_prefix": "gitopia",
-  "theme_color": "#5e4b8b",
+  "theme_color": "#5c2d91",
   "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
 }
