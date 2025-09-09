@@ -1,0 +1,38 @@
+{
+  "chain_name": "shentu",
+  "api": [
+    {
+      "address": "https://rest.cosmos.directory/shentu",
+      "provider": "Official"
+    },
+    {
+      "address": "https://shentu.api.m.stavr.tech",
+      "provider": "Stavr"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.cosmos.directory/shentu",
+      "provider": "Official"
+    },
+    {
+      "address": "https://shentu.rpc.m.stavr.tech",
+      "provider": "Stavr"
+    }
+  ],
+  "sdk_version": "0.47.13",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "assets": [
+    {
+      "base": "uctk",
+      "symbol": "CTK",
+      "exponent": "6",
+      "coingecko_id": "certik",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/shentu-logo.png"
+    }
+  ],
+  "addr_prefix": "shentu",
+  "theme_color": "#2E6AB6",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/shentu-logo.png"
+}
