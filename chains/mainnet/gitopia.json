@@ -1,5 +1,6 @@
 {
   "chain_name": "gitopia",
+  "chain_id": "gitopia",
   "api": [
     {
       "address": "https://api-gitopia.onenov.xyz",
