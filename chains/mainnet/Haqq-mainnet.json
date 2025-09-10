@@ -3,11 +3,19 @@
   "chain_id": "haqq_11235-1",
   "api": [
     {
+      "address": "https://haqq.api.onenov.xyz",
+      "provider": "Haqq Network"
+    },
+    {
       "address": "https://rest.cosmos.directory/haqq",
       "provider": "Haqq Network"
     }
   ],
   "rpc": [
+    {
+      "address": "https://haqq.rpc.onenov.xyz",
+      "provider": "OneNov"
+    },
     {
       "address": "https://rpc.cosmos.directory/haqq",
       "provider": "Haqq Network"
