@@ -26,25 +26,11 @@
   "min_tx_fee": "5000",
   "assets": [
     {
-      "description": "The native token of HAQQ Network",
-      "denom_units": [
-        {
-          "denom": "aISLM",
-          "exponent": 0
-        },
-        {
-          "denom": "ISLM",
-          "exponent": 18
-        }
-      ],
       "base": "aISLM",
-      "name": "Islamic Coin",
-      "display": "ISLM",
       "symbol": "ISLM",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/haqq-logo.png"
-      },
-      "coingecko_id": "islamic-coin"
+      "exponent": 18,
+      "coingecko_id": "islamic-coin",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/haqq-logo.png"
     }
   ],
   "staking": {
