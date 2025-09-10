@@ -26,7 +26,7 @@
   "min_tx_fee": "5000",
   "assets": [
     {
-      "base": "aislm",
+      "base": "aISLM",
       "symbol": "ISLM",
       "exponent": 18,
       "coingecko_id": "islamic-coin",
@@ -36,7 +36,7 @@
   "staking": {
     "staking_tokens": [
       {
-        "denom": "aislm"
+        "denom": "aISLM"
       }
     ],
     "lock_duration": "1209600s"
