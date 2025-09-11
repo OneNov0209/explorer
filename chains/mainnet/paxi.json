@@ -4,11 +4,19 @@
     {
       "address": "https://rest.cosmos.directory/paxi",
       "provider": "cosmos.directory"
+    },
+    {
+      "address": "https://api-paxi.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc.cosmos.directory/paxi",
+      "provider": "cosmos.directory"
+    },
+    {
+      "address": "https://rpc-paxi.onenov.xyz",
       "provider": "cosmos.directory"
     }
   ],
