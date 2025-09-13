@@ -4,12 +4,20 @@
         {
             "address": "https://api.cnho.io",
             "provider": "CNHO"
+        },
+        {
+            "address": "https://api-cnho.onenov.xyz",
+            "provider": "OneNov"
         }
     ],
     "rpc": [
         {
             "address": "https://rpc.cnho.io",
             "provider": "CNHO"
+        },
+        {
+            "address": "https://rpc-cnho.onenov.xyz",
+            "provider": "OneNov"
         }
     ],
     "sdk_version": "0.47.0",
