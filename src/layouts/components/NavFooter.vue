@@ -14,7 +14,7 @@
         href="https://ping.pub"
         target="_blank"
         rel="noopener noreferrer"
-        >Winnode</a
+        >OneNov</a
       >
     </div>
     <div
