@@ -1,0 +1,30 @@
+{
+    "chain_name": "lumera",
+    "api": [
+        {
+            "address": "https://lumera-api.polkachu.com",
+            "provider": "Polkachu"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://lumera-rpc.polkachu.com",
+            "provider": "Polkachu"
+        }
+    ],
+    "sdk_version": "0.50.12",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [
+        {
+            "base": "ulume",
+            "symbol": "LUME",
+            "exponent": "6",
+            "coingecko_id": "unknown",
+            "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
+        }
+    ],
+    "addr_prefix": "lumera",
+    "theme_color": "#1A73E8",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
+}
