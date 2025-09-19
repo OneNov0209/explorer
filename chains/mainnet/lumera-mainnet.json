@@ -4,12 +4,20 @@
         {
             "address": "https://lumera-api.polkachu.com",
             "provider": "Polkachu"
+        },
+        {
+            "address": "https://api-lumera.mainnet.onenov.xyz",
+            "provider": "OneNov"
         }
     ],
     "rpc": [
         {
             "address": "https://lumera-rpc.polkachu.com",
             "provider": "Polkachu"
+        },
+        {
+            "address": "https://rpc.cosmos.directory/lumera",
+            "provider": "OneNov"
         }
     ],
     "sdk_version": "0.50.12",
