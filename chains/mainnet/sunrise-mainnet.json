@@ -2,8 +2,8 @@
     "chain_name": "Sunrise-Mainnet",
     "api": [
         {
-            "address": "https://api-sunrise.winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://sunrise-api.onenov.xyz",
+            "provider": "OneNov"
         },
         {
             "address": "https://a.consensus.sunrise-1.sunriselayer.io:1318",
@@ -13,8 +13,8 @@
     ],
     "rpc": [
         {
-            "address": "https://rpc-sunrise.winnode.xyz",
-            "provider": "Winnode"
+            "address": "https://sunrise-rpc.onenov.xyz",
+            "provider": "OneNov"
         },
         {
             "address": "https://a.consensus.sunrise-1.sunriselayer.io",
