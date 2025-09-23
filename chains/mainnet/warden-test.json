@@ -2,18 +2,14 @@
     "chain_name": "Warden-Test",
     "api": [
         {
-            "address": "https://api.chiado.wardenprotocol.org",
-            "provider": "OneNov"
-        },
-        {
             "address": "https://warden-testnet-api.itrocket.net",
-            "provider": "Backup"
+            "provider": "ITRocket"
         }
     ],
     "rpc": [
         {
-            "address": "https://rpc.chiado.wardenprotocol.org",
-            "provider": "OneNov"
+            "address": "https://warden-testnet-rpc.itrocket.net",
+            "provider": "ITRocket"
         }
     ],
     "sdk_version": "0.46.1",
