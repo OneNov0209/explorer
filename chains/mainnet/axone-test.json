@@ -1,34 +1,30 @@
 {
-  "chain_name": "axone-test",
-  "api": [
-    {
-      "address": "https://api-axone.winsnip.xyz",
-      "provider": "OneNov"
-    },
-    {
-      "address": "https://axone-testnet-api.polkachu.com",
-      "provider": "Polkachu (Backup)"
-    }
-  ],
-  "rpc": [
-    {
-      "address": "https://rpc-axone.winsnip.xyz",
-      "provider": "OneNov"
-    }
-  ],
-  "sdk_version": "v0.50.9",
-  "coin_type": "118",
-  "min_tx_fee": "1000",
-  "assets": [
-    {
-      "base": "uaxone",
-      "symbol": "AXONE",
-      "exponent": "6",
-      "coingecko_id": "unknown",
-      "logo": "https://pbs.twimg.com/profile_images/1841523650043772928/EeZIYE7B.jpg"
-    }
-  ],
-  "addr_prefix": "axone",
-  "theme_color": "#2a4365",
-  "logo": "https://pbs.twimg.com/profile_images/1841523650043772928/EeZIYE7B.jpg"
+    "chain_name": "axone-testnet",
+    "api": [
+        {
+            "address": "https://axone-test.api.cumulo.com.es",
+            "provider": "Cumulo"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://axone-test.rpc.cumulo.com.es",
+            "provider": "Cumulo"
+        }
+    ],
+    "sdk_version": "0.46.0",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [
+        {
+            "base": "uaxone",
+            "symbol": "AXONE",
+            "exponent": "6",
+            "coingecko_id": "unknown",
+            "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/axone-logo.png"
+        }
+    ],
+    "addr_prefix": "axone",
+    "theme_color": "#1e40af",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/axone-logo.png"
 }
