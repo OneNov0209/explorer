@@ -2,7 +2,7 @@
   "chain_name": "uptick-mainnet",
   "api": [
     {
-      "address": "https://api-uptick.onenov.xyz",
+      "address": "https://uptick-api.onenov.xyz",
       "provider": "OneNov"
     },
     {
@@ -12,7 +12,7 @@
   ],
   "rpc": [
     {
-      "address": "https://rpc-uptick.onenov.xyz",
+      "address": "https://uptick-rpc.onenov.xyz",
       "provider": "OneNov"
     },
     {
