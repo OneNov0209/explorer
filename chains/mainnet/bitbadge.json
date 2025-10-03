@@ -18,7 +18,7 @@
     "assets": [{
         "base": "ubadge",
         "symbol": "BADGE",
-        "exponent": "3",
+        "exponent": "9",
         "coingecko_id": "unknown",
         "logo": ""
     }],
