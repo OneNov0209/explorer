@@ -2,11 +2,19 @@
     "chain_name": "Warden-Test",
     "api": [
         {
+            "address": "https://api-warden.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
             "address": "https://warden-testnet-api.itrocket.net",
             "provider": "ITRocket"
         }
     ],
     "rpc": [
+        {
+            "address": "https://rpc-warden.onenov.xyz",
+            "provider": "OneNov"
+        },
         {
             "address": "https://warden-testnet-rpc.itrocket.net",
             "provider": "ITRocket"
