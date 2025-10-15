@@ -3,12 +3,20 @@
     "api": [
         {
             "address": "https://lcd.dos.sentry.testnet.v3.kiivalidator.com",
+            "provider": "Kiichain"
+        },
+        {
+            "address": "https://api-kiichain.onenov.xyz",
             "provider": "OneNov"
         }
     ],
     "rpc": [
         {
             "address": "https://rpc.dos.sentry.testnet.v3.kiivalidator.com",
+            "provider": "kiichain"
+        },
+        {
+            "address": "https://rpc-kiichain.onenov.xyz",
             "provider": "OneNov"
         }
     ],
