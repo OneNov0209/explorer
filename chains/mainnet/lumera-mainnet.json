@@ -6,7 +6,7 @@
             "provider": "Polkachu"
         },
         {
-            "address": "https://api-lumera.mainnet.onenov.xyz:8443",
+            "address": "https://api-lumera.mainnet.onenov.xyz",
             "provider": "OneNov"
         }
     ],
@@ -16,7 +16,7 @@
             "provider": "Polkachu"
         },
         {
-            "address": "https://rpc-lumera.mainnet.onenov.xyz:8444",
+            "address": "https://rpc-lumera.mainnet.onenov.xyz",
             "provider": "OneNov"
         }
     ],
