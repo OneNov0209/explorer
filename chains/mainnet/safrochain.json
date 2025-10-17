@@ -2,14 +2,22 @@
     "chain_name": "safrochain",
     "api": [
         {
-            "address": "https://rest.testnet.safrochain.com",
+            "address": "https://api-saf.onenov.xyz",
             "provider": "OneNov"
-        }
+        },
+        {
+            "address": "https://rest.testnet.safrochain.com",
+            "provider": "Safrochain"
+        }        
     ],
     "rpc": [
         {
-            "address": "https://rpc.testnet.safrochain.com",
+            "address": "https://rpc-saf.onenov.xyz",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://rpc.testnet.safrochain.com",
+            "provider": "safrochain"
         }
     ],
     "sdk_version": "0.50.13",
