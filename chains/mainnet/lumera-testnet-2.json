@@ -2,8 +2,12 @@
     "chain_name": "lumera-test",
     "api": [
         {
-            "address": "https://lumera-testnet-api.polkachu.com",
+            "address": "https://api-lumera.onenov.xyz",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://lumera-testnet-api.polkachu.com",
+            "provider": "polkachu"
         },
         {
             "address": "https://lcd.testnet.lumera.io",
@@ -12,8 +16,12 @@
     ],
     "rpc": [
         {
+            "address": "https://rpc-lumera.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
             "address": "https://lumera-testnet-rpc.polkachu.com",
-            "provider": "Winnode"
+            "provider": "polkachu"
         },
         {
             "address": "https://rpc.testnet.lumera.io",
