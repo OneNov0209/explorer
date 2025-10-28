@@ -19,7 +19,7 @@
         {
             "base": "shido",
             "symbol": "SHIDO",
-            "exponent": "6",
+            "exponent": "18",
             "coingecko_id": "shido-2",
             "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/shido.png"
         }
