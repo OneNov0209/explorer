@@ -2,11 +2,19 @@
     "chain_name": "bitbadges-1",
     "api": [
         {
-            "address": "https://lcd.bitbadges.io",
+            "address": "https://api-bitbadges.onenov.xyx",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://lcd.bitbadges.io",
+            "provider": "Official"
         }
     ],
     "rpc": [
+        {
+            "address": "https://rpc-bitbadges.onenov.xyz",
+            "provider": "OneNov"
+        },
         {
             "address": "https://rpc.bitbadges.io",
             "provider": "OneNov"
