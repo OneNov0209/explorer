@@ -1,0 +1,30 @@
+{
+    "chain_name": "shido",
+    "api": [
+        {
+            "address": "https://swagger.shidoscan.com",
+            "provider": "Shidoscan"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://tendermint.shidoscan.com",
+            "provider": "Shidoscan"
+        }
+    ],
+    "sdk_version": "0.50.13-0.20250319183239-53dea340efc7",
+    "coin_type": "60",
+    "min_tx_fee": "0",
+    "assets": [
+        {
+            "base": "shido",
+            "symbol": "SHIDO",
+            "exponent": "6",
+            "coingecko_id": "shido-2",
+            "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/shido.png"
+        }
+    ],
+    "addr_prefix": "shido",
+    "theme_color": "#000000",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/shido.png"
+}
