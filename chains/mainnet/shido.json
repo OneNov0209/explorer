@@ -2,11 +2,19 @@
     "chain_name": "shido",
     "api": [
         {
+            "address": "https://api-shido.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
             "address": "https://swagger.shidoscan.com",
             "provider": "Shidoscan"
         }
     ],
     "rpc": [
+        {
+            "address": "https://rpc-shido.onenov.xyz",
+            "provider": "OneNov"
+        },
         {
             "address": "https://tendermint.shidoscan.com",
             "provider": "Shidoscan"
