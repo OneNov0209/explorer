@@ -2,11 +2,19 @@
     "chain_name": "lava-mainnet",
     "api": [
         {
+            "address": "http://api-lava.onenov.xyz",
+            "provider": "OneNov"
+        },
+        {
             "address": "https://lava-mainnet-api.itrocket.net",
             "provider": "ITRocket"
         }
     ],
     "rpc": [
+        {
+            "address": "http://rpc-lava.onenov.xyz",
+            "provider": "OneNov"
+        },
         {
             "address": "https://lava-mainnet-rpc.itrocket.net",
             "provider": "ITRocket"
