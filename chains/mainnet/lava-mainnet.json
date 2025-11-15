@@ -1,23 +1,15 @@
 {
-    "chain_name": "lava-mainnet",
+    "chain_name": "lava",
     "api": [
         {
-            "address": "http://api-lava.onenov.xyz",
+            "address": "https://api-lava.onenov.xyz",
             "provider": "OneNov"
-        },
-        {
-            "address": "https://lava-mainnet-api.itrocket.net",
-            "provider": "ITRocket"
         }
     ],
     "rpc": [
         {
-            "address": "http://rpc-lava.onenov.xyz",
-            "provider": "OneNov"
-        },
-        {
-            "address": "https://lava-mainnet-rpc.itrocket.net",
-            "provider": "ITRocket"
+            "address": "https://rpc-lava.onenov.xyz",
+            "provider": "OneNov" 
         }
     ],
     "sdk_version": "0.47.13",
@@ -30,7 +22,7 @@
         "coingecko_id": "lava-network",
         "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png"
     }],
-    "addr_prefix": "lava@",
+    "addr_prefix": "lava",
     "theme_color": "#FF6B35",
     "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png"
 }
