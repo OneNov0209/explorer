@@ -1,5 +1,5 @@
 {
-    "chain_name": "lava",
+    "chain_name": "lava-mainnet",
     "api": [
         {
             "address": "https://lava-mainnet-api.itrocket.net",
