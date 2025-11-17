@@ -2,6 +2,10 @@
     "chain_name": "shido",
     "api": [
         {
+            "address": "https://shido-api.polkachu.com",
+            "provider": "Polkachu"
+        },
+        {
             "address": "https://api-shido.onenov.xyz",
             "provider": "OneNov"
         },
@@ -11,6 +15,10 @@
         }
     ],
     "rpc": [
+        {
+            "address": "https://shido-rpc.polkachu.com",
+            "provider": "Polkachu"
+        },
         {
             "address": "https://rpc-shido.onenov.xyz",
             "provider": "OneNov"
