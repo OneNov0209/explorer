@@ -1,0 +1,28 @@
+{
+    "chain_name": "lumen",
+    "api": [
+        {
+            "address": "https://api-lumen.onenov.xyz", 
+            "provider": "OneNov"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://rpc-lumen.onenov.xyz", 
+            "provider": "OneNov"
+        }
+    ],
+    "sdk_version": "0.53.3",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "assets": [{
+        "base": "ulmn",
+        "symbol": "LMN",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumen.png"
+    }],
+    "addr_prefix": "lmn",
+    "theme_color": "#2d6ae3",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumen.png"
+}
