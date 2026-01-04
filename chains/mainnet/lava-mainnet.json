@@ -4,12 +4,20 @@
         {
             "address": "https://api-lava.onenov.xyz",
             "provider": "OneNov"
+        },
+        {
+            "address": "https://lava.api.m.stavr.tech",
+            "provider": "Stavr"
         }
     ],
     "rpc": [
         {
             "address": "https://rpc-lava.onenov.xyz",
             "provider": "OneNov" 
+        },
+        {
+            "address": "https://lava.rpc.m.stavr.tech",
+            "provider": "Stavr" 
         }
     ],
     "sdk_version": "0.47.13",
