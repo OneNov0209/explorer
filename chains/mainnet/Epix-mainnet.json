@@ -4,12 +4,20 @@
     {
       "address": "https://epix-rest.stakerhouse.com",
       "provider": "StakerHouse"
+    },
+    {
+      "address": "https://api-epix.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
       "address": "https://epix-rpc.stakerhouse.com",
       "provider": "StakerHouse"
+    },
+    {
+      "address": "https://rpc-epix.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "sdk_version": "0.50.x",
