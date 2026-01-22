@@ -2,21 +2,21 @@
     "chain_name": "empeiria-test",
     "api": [
         {
-            "address": "https://empe-api.onenov.xyz/",
+            "address": "https://empe-api.onenov.xyz",
             "provider": "OneNov"
         },
         {
-            "address": "https://lcd-testnet.empe.io/",
+            "address": "https://lcd-testnet.empe.io",
             "provider": "Backup"
         }
     ],
     "rpc": [
         {
-            "address": "http://empe-rpc.onenov.xyz/",
+            "address": "http://empe-rpc.onenov.xyz",
             "provider": "OneNov"
         },
         {
-            "address": "https://rpc-testnet.empe.io/",
+            "address": "https://rpc-testnet.empe.io",
             "provider": "Backup"
         }
     ],
