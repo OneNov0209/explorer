@@ -1,5 +1,6 @@
 {
     "chain_name": "lumera",
+    "chain_id": "lumera-mainnet-1",
     "api": [
         {
             "address": "https://lumera-api.polkachu.com",
