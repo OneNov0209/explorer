@@ -1,31 +1,39 @@
 {
-    "chain_name": "republic-testnet",
-    "chain_id": "raitestnet_77701-1",
-    "api": [
-        {
-            "address": "https://rest.republicai.io",
-            "provider": "OneNov"
-        }
-    ],
-    "rpc": [
-        {
-            "address": "https://rpc.republicai.io",
-            "provider": "OneNov"
-        }
-    ],
-    "sdk_version": "0.53.4",
-    "coin_type": "60",
-    "min_tx_fee": "0",
-    "assets": [
-        {
-            "base": "urai",
-            "symbol": "RAI",
-            "exponent": "6",
-            "coingecko_id": "republic-ai",
-            "logo": "https://pbs.twimg.com/profile_images/1973508413666574337/lfLtj2x-.jpg"
-        }
-    ],
-    "addr_prefix": "republic",
-    "theme_color": "#1b3cff",
-    "logo": "https://pbs.twimg.com/profile_images/1973508413666574337/lfLtj2x-.jpg"
+  "chain_name": "republic-testnet",
+  "chain_id": "raitestnet_77701-1",
+  "api": [
+    {
+      "address": "https://rest.republicai.io",
+      "provider": "RepublicAI"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.republicai.io",
+      "provider": "RepublicAI"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "60",
+  "min_tx_fee": "0",
+  "assets": [
+    {
+      "base": "arai",
+      "symbol": "RAI",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://pbs.twimg.com/profile_images/1973508413666574337/lfLtj2x-.jpg"
+    }
+  ],
+  "addr_prefix": "rai",
+  "bech32_config": {
+    "bech32PrefixAccAddr": "rai",
+    "bech32PrefixAccPub": "raipub",
+    "bech32PrefixValAddr": "raivaloper",
+    "bech32PrefixValPub": "raivaloperpub",
+    "bech32PrefixConsAddr": "raivalcons",
+    "bech32PrefixConsPub": "raivalconspub"
+  },
+  "theme_color": "#1b1f2a",
+  "logo": "https://pbs.twimg.com/profile_images/1973508413666574337/lfLtj2x-.jpg"
 }
