@@ -34,6 +34,6 @@
     "bech32PrefixConsAddr": "raivalcons",
     "bech32PrefixConsPub": "raivalconspub"
   },
-  "theme_color": "#1b1f2a",
+  "theme_color": "#2F80ED",
   "logo": "https://pbs.twimg.com/profile_images/1973508413666574337/lfLtj2x-.jpg"
 }
