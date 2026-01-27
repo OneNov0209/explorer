@@ -3,13 +3,13 @@
   "chain_id": "raitestnet_77701-1",
   "api": [
     {
-      "address": "https://rest.republicai.io",
+      "address": "https://api-republic.onenov.xyz",
       "provider": "RepublicAI"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc.republicai.io",
+      "address": "https://rpc-republic.onenov.xyz",
       "provider": "RepublicAI"
     }
   ],
