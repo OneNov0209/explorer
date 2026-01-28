@@ -1,0 +1,32 @@
+{
+  "chain_name": "kiichain-mainnet",
+  "chain_id": "kiichain_1783-1",
+  "api": [
+    {
+      "address": "https://lcd.kiivalidator.com",
+      "provider": "Kiichain"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.kiivalidator.com",
+      "provider": "Kiichain"
+    }
+  ],
+  "sdk_version": "0.53.x",
+  "coin_type": "60",
+  "min_tx_fee": "1000000000",
+  "assets": [
+    {
+      "base": "akii",
+      "symbol": "KII",
+      "exponent": "18",
+      "coingecko_id": "unknown",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/kiichain-logo.png"
+    }
+  ],
+  "addr_prefix": "kii",
+  "validator_prefix": "kiivaloper",
+  "theme_color": "#812cd6",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/kiichain-logo.png"
+}
