@@ -5,12 +5,20 @@
     {
       "address": "https://lcd.kiivalidator.com",
       "provider": "Kiichain"
+    },
+    {
+      "address": "https://api-kiichain-mainnet.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc.kiivalidator.com",
       "provider": "Kiichain"
+    },
+    {
+      "address": "https://rpc-kiichain-mainnet.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "sdk_version": "0.53.x",
