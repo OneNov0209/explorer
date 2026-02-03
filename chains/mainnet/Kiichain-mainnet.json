@@ -21,15 +21,15 @@
       "provider": "OneNov"
     }
   ],
-  "sdk_version": "0.53.x",
+  "sdk_version": "0.53.5",
   "coin_type": "60",
-  "min_tx_fee": "1000000000",
+  "min_tx_fee": "1000000000akii",
   "assets": [
     {
       "base": "akii",
       "symbol": "KII",
-      "exponent": "18",
-      "coingecko_id": "unknown",
+      "exponent": 18,
+      "coingecko_id": "",
       "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/kiichain-logo.png"
     }
   ],
