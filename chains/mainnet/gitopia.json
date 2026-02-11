@@ -9,10 +9,6 @@
     {
       "address": "https://gitopia-api.polkachu.com",
       "provider": "Polkachu"
-    },
-    {
-      "address": "https://gitopia.api.m.stavr.tech",
-      "provider": "Stavr"
     }
   ],
   "rpc": [
@@ -23,16 +19,6 @@
     {
       "address": "https://gitopia-rpc.polkachu.com",
       "provider": "Polkachu"
-    },
-    {
-      "address": "https://gitopia.rpc.m.stavr.tech",
-      "provider": "Stavr"
-    }
-  ],
-  "grpc": [
-    {
-      "address": "grpc-gitopia.onenov.xyz:443",
-      "provider": "OneNov"
     }
   ],
   "sdk_version": "0.47.13",
