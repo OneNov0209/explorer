@@ -31,9 +31,9 @@
       "symbol": "LORE",
       "exponent": "6",
       "coingecko_id": "unknown",
-      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
+      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/lore.png"
     }
   ],
   "theme_color": "#5c2d91",
-  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/gitopia-logo.png"
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/lore.png"
 }
