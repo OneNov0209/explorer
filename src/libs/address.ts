@@ -14,14 +14,15 @@ export function decodeAddress(address: string) {
 export function operatorAddressToAccount(operAddress?: string) {
   if (!operAddress) return '';
   const { prefix, data } = fromBech32(operAddress);
+
   if (prefix === 'iva') {
-    // handle special cases
     return toBech32('iaa', data);
   }
+
   if (prefix === 'crocncl') {
-    // handle special cases
     return toBech32('cro', data);
   }
+
   return toBech32(prefix.replace('valoper', ''), data);
 }
 
@@ -30,33 +31,51 @@ export function consensusPubkeyToHexAddress(consensusPubkey?: {
   key: string;
 }) {
   if (!consensusPubkey) return '';
+
   let raw = '';
+
+  // ED25519 (Tendermint consensus key)
   if (consensusPubkey['@type'] === '/cosmos.crypto.ed25519.PubKey') {
     const pubkey = fromBase64(consensusPubkey.key);
-    if (pubkey) return toHex(sha256(pubkey)).slice(0, 40).toUpperCase();
+    if (pubkey) {
+      return toHex(sha256(pubkey)).slice(0, 40).toUpperCase();
+    }
   }
 
-  if (consensusPubkey['@type'] === '/cosmos.crypto.secp256k1.PubKey') {
+  // Cosmos Secp256k1
+  if (
+    consensusPubkey['@type'] === '/cosmos.crypto.secp256k1.PubKey' ||
+    consensusPubkey['@type'] === '/ethermint.crypto.v1.ethsecp256k1.PubKey'
+  ) {
     const pubkey = fromBase64(consensusPubkey.key);
-    if (pubkey) return toHex(new Ripemd160().update(sha256(pubkey)).digest());
+    if (pubkey) {
+      return toHex(new Ripemd160().update(sha256(pubkey)).digest());
+    }
   }
+
   return raw;
 }
 
 // not work as expected, will fix later or remove
 export function consumerKeyToBase64Address(consumerKey?: Record<string, string>) {
-
   if (!consumerKey) return '';
+
   let raw = '';
+
   if (consumerKey.ed25519) {
     const pubkey = fromBase64(consumerKey.ed25519);
-    if (pubkey) return toBase64(sha256(pubkey)).slice(0, 40);
+    if (pubkey) {
+      return toBase64(sha256(pubkey)).slice(0, 40);
+    }
   }
 
   if (consumerKey.secp256k1) {
     const pubkey = fromBase64(consumerKey.secp256k1);
-    if (pubkey) return toBase64(new Ripemd160().update(sha256(pubkey)).digest());
+    if (pubkey) {
+      return toBase64(new Ripemd160().update(sha256(pubkey)).digest());
+    }
   }
+
   return raw;
 }
 
@@ -66,16 +85,21 @@ export function pubKeyToValcons(
 ) {
   if (consensusPubkey && consensusPubkey.key) {
     const pubkey = fromBase64(consensusPubkey.key);
+
     if (pubkey) {
       const addressData = sha256(pubkey).slice(0, 20);
       return toBech32(prefix, addressData);
     }
   }
+
   return '';
 }
 
 export function valconsToBase64(address: string) {
-  if (address) return toBase64(fromBech32(address).data);
+  if (address) {
+    return toBase64(fromBech32(address).data);
+  }
+
   return '';
 }
 
