@@ -6,12 +6,20 @@
     {
       "address": "https://api-republic.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://republic.test.api.nodeshub.online",
+      "provider": "nodeshub"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc-republic.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://republic.test.rpc.nodeshub.online:443",
+      "provider": "nodeshub"
     }
   ],
   "evm_rpc": [
