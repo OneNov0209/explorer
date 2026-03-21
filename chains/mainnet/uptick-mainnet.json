@@ -2,10 +2,6 @@
   "chain_name": "uptick-mainnet",
   "api": [
     {
-      "address": "https://uptick-api.onenov.xyz",
-      "provider": "OneNov"
-    },
-    {
       "address": "https://rest.uptick.network",
       "provider": "Uptick Network"
     }
