@@ -1,5 +1,5 @@
 {
-    "chain_name": "safrochain",
+    "chain_name": "safro-testnet-1",
     "api": [
         {
             "address": "https://api-saf.onenov.xyz",
