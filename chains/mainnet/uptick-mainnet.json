@@ -8,10 +8,6 @@
   ],
   "rpc": [
     {
-      "address": "https://uptick-rpc.onenov.xyz",
-      "provider": "OneNov"
-    },
-    {
       "address": "https://rpc.uptick.network",
       "provider": "Uptick Network"
     }
