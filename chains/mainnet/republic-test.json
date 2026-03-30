@@ -37,7 +37,7 @@
       "symbol": "RAI",
       "exponent": 18,
       "coingecko_id": "unknown",
-      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/republic-logo.jpg"
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/republic-logo.png"
     }
   ],
   "addr_prefix": "rai",
@@ -57,7 +57,7 @@
     ]
   },
   "theme_color": "#2F80ED",
-  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/republic-logo.jpg",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/republic-logo.png",
   "node_info": {
     "protocol_version": {
       "p2p": "8",
