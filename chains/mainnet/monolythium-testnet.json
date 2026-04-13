@@ -1,0 +1,34 @@
+{
+  "chain_name": "monolythium-testnet",
+  "chain_id": "mono_6940-1",
+  "api": ["https://api.testnet.mononodes.xyz"],
+  "rpc": ["https://rpc.testnet.mononodes.xyz"],
+  "sdk_version": "0.53.6",
+  "coin_type": "60",
+  "min_tx_fee": "5000000000000000",
+  "addr_prefix": "mono",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png",
+  "assets": [
+    {
+      "base": "alyth",
+      "symbol": "LYTH",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png"
+    }
+  ],
+  "gas_price": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.03
+  },
+  "theme_color": "#000000",
+  "features": ["evm"],
+  "explorer": "",
+  "faucet": "",
+  "evm": {
+    "rpc": "https://evm.testnet.mononodes.xyz",
+    "ws": "wss://evm.testnet.mononodes.xyz",
+    "chain_id": 6940
+  }
+}
