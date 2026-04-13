@@ -1,8 +1,22 @@
 {
   "chain_name": "monolythium-testnet",
   "chain_id": "mono_6940-1",
-  "api": ["https://api.testnet.mononodes.xyz"],
-  "rpc": ["https://rpc.testnet.mononodes.xyz"],
+  "api": [
+    {
+      "provider": "mononodes",
+      "address": "https://api.testnet.mononodes.xyz"
+    },
+    {
+      "provider": "nodestake",
+      "address": "https://api-t.mono.nodestake.org"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "mononodes",
+      "address": "https://rpc.testnet.mononodes.xyz"
+    }
+  ],
   "sdk_version": "0.53.6",
   "coin_type": "60",
   "min_tx_fee": "5000000000000000",
@@ -22,7 +36,7 @@
     "average": 0.025,
     "high": 0.03
   },
-  "theme_color": "#000000",
+  "theme_color": "#2563eb",
   "features": ["evm"],
   "explorer": "",
   "faucet": "",
