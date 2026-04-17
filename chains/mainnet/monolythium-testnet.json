@@ -1,43 +1,42 @@
 {
   "chain_name": "monolythium-testnet",
   "chain_id": "mono_6940-1",
+
   "api": [
-    {
-      "address": "https://api.testnet.mononodes.xyz",
-      "provider": "mononodes"
-    },
-    {
-      "address": "https://api-t.mono.nodestake.org",
-      "provider": "nodestake"
-    }
+    { "address": "https://api.testnet.mononodes.xyz", "provider": "mononodes" },
+    { "address": "https://api-t.mono.nodestake.org", "provider": "nodestake" }
   ],
+
   "rpc": [
-    {
-      "address": "https://rpc.testnet.mononodes.xyz",
-      "provider": "mononodes"
-    }
+    { "address": "https://rpc.testnet.mononodes.xyz", "provider": "mononodes" }
   ],
+
   "sdk_version": "0.53.6",
-  "coin_type": "118",
-  "min_tx_fee": "5000000000000000",
+
+  "coin_type": "118", // untuk explorer ONLY
   "addr_prefix": "mono",
-  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png",
+
   "assets": [
     {
       "base": "alyth",
       "symbol": "LYTH",
       "exponent": "18",
-      "coingecko_id": "",
       "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png"
     }
   ],
+
   "gas_price": {
     "low": 0.01,
     "average": 0.025,
     "high": 0.03
   },
+
+  "features": [
+    "stargate",
+    "ibc-transfer",
+    "cosmwasm"
+  ],
+
   "theme_color": "#2563eb",
-  "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorer": "",
-  "faucet": ""
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png"
 }
