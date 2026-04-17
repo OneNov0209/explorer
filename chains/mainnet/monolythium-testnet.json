@@ -3,22 +3,22 @@
   "chain_id": "mono_6940-1",
   "api": [
     {
-      "provider": "mononodes",
-      "address": "https://api.testnet.mononodes.xyz"
+      "address": "https://api.testnet.mononodes.xyz",
+      "provider": "mononodes"
     },
     {
-      "provider": "nodestake",
-      "address": "https://api-t.mono.nodestake.org"
+      "address": "https://api-t.mono.nodestake.org",
+      "provider": "nodestake"
     }
   ],
   "rpc": [
     {
-      "provider": "mononodes",
-      "address": "https://rpc.testnet.mononodes.xyz"
+      "address": "https://rpc.testnet.mononodes.xyz",
+      "provider": "mononodes"
     }
   ],
   "sdk_version": "0.53.6",
-  "coin_type": "60",
+  "coin_type": "118",
   "min_tx_fee": "5000000000000000",
   "addr_prefix": "mono",
   "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/monolyth.png",
@@ -37,12 +37,7 @@
     "high": 0.03
   },
   "theme_color": "#2563eb",
-  "features": ["evm"],
+  "features": ["stargate", "ibc-transfer", "cosmwasm"],
   "explorer": "",
-  "faucet": "",
-  "evm": {
-    "rpc": "https://evm.testnet.mononodes.xyz",
-    "ws": "wss://evm.testnet.mononodes.xyz",
-    "chain_id": 6940
-  }
+  "faucet": ""
 }
