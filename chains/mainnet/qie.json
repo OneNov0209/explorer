@@ -1,15 +1,24 @@
 {
   "chain_name": "qie",
+  "chain_id": "qie_1990-1",
   "api": [
     {
       "address": "https://api.qie.digital",
       "provider": "QIE Official"
+    },
+    {
+      "address": "https://api-qie.winnode.xyz",
+      "provider": "Winnode"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc.qie.digital",
       "provider": "QIE Official"
+    },
+    {
+      "address": "https://rpc-qie.winnode.xyz",
+      "provider": "Winnode"
     }
   ],
   "sdk_version": "0.47.0",
@@ -21,10 +30,10 @@
       "symbol": "QIE",
       "exponent": "18",
       "coingecko_id": "qi-blockchain",
-      "logo": "https://file.winsnip.xyz/file/uploads/qie.png"
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/qie-logo.png"
     }
   ],
   "addr_prefix": "qie",
   "theme_color": "#4A90E2",
-  "logo": "https://file.winsnip.xyz/file/uploads/qie.png"
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/qie-logo.png"
 }
