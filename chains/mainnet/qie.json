@@ -1,0 +1,30 @@
+{
+  "chain_name": "qie",
+  "api": [
+    {
+      "address": "https://api.qie.digital",
+      "provider": "QIE Official"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.qie.digital",
+      "provider": "QIE Official"
+    }
+  ],
+  "sdk_version": "0.47.0",
+  "coin_type": "60",
+  "min_tx_fee": "10000000000",
+  "assets": [
+    {
+      "base": "aqie",
+      "symbol": "QIE",
+      "exponent": "18",
+      "coingecko_id": "qi-blockchain",
+      "logo": "https://file.winsnip.xyz/file/uploads/qie.png"
+    }
+  ],
+  "addr_prefix": "qie",
+  "theme_color": "#4A90E2",
+  "logo": "https://file.winsnip.xyz/file/uploads/qie.png"
+}
