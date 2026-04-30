@@ -3,8 +3,8 @@
   "chain_id": "qie_1990-1",
   "api": [
     {
-      "address": "https://api.qie.digital",
-      "provider": "QIE Official"
+      "address": "https://api.qie.onenov.xyz",
+      "provider": "OneNov"
     },
     {
       "address": "https://api-qie.winnode.xyz",
@@ -13,8 +13,8 @@
   ],
   "rpc": [
     {
-      "address": "https://rpc.qie.digital",
-      "provider": "QIE Official"
+      "address": "https://rpc.qie.onenov.xyz",
+      "provider": "OneNov"
     },
     {
       "address": "https://rpc-qie.winnode.xyz",
