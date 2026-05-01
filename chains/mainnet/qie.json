@@ -1,6 +1,5 @@
 {
   "chain_name": "qie",
-  "chain_id": "qie_1990-1",
   "api": [
     {
       "address": "https://api.qie.onenov.xyz",
