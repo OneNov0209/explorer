@@ -1,0 +1,30 @@
+{
+  "chain_name": "thejaynetwork",
+  "api": [
+    {
+      "address": "https://api-jay.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-jay.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "assets": [
+    {
+      "base": "ujay",
+      "symbol": "JAY",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/Jay-logo.png"
+    }
+  ],
+  "addr_prefix": "yjay",
+  "theme_color": "#2563eb",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/Jay-logo.png"
+}
