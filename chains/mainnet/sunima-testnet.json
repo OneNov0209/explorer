@@ -1,0 +1,30 @@
+{
+  "chain_name": "sunima-testnet",
+  "api": [
+    {
+      "address": "https://sunima.uk/chain-rest",
+      "provider": "sunima"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://sunima.uk/chain-rpc",
+      "provider": "sunima"
+    }
+  ],
+  "sdk_version": "0.53.0",
+  "coin_type": "60",
+  "min_tx_fee": "1",
+  "assets": [
+    {
+      "base": "asuna",
+      "symbol": "SUNA",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunima-logo.jpg"
+    }
+  ],
+  "addr_prefix": "sunima",
+  "theme_color": "#ce4747",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunima-logo.jpg"
+}
