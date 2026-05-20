@@ -1,18 +1,19 @@
 {
   "chain_name": "sunima-testnet",
+  "chain_id": "sunima_8081-1",
   "api": [
     {
       "address": "https://sunima.uk/chain-rest",
-      "provider": "sunima"
+      "provider": "Sunima"
     }
   ],
   "rpc": [
     {
       "address": "https://sunima.uk/chain-rpc",
-      "provider": "sunima"
+      "provider": "Sunima"
     }
   ],
-  "sdk_version": "0.53.0",
+  "sdk_version": "0.53.4",
   "coin_type": "60",
   "min_tx_fee": "1",
   "assets": [
