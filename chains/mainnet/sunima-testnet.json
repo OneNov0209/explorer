@@ -22,10 +22,10 @@
       "symbol": "SUNA",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunima-logo.jpg"
+      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sunimatestnet/images/sunima.svg"
     }
   ],
   "addr_prefix": "sunima",
   "theme_color": "#ce4747",
-  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/sunima-logo.jpg"
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/sunimatestnet/images/sunima.svg"
 }
