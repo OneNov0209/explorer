@@ -21,10 +21,10 @@
       "symbol": "JAY",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "https://raw.githubusercontent.com/bbtccore/thejaynetwork/refs/heads/master/chain-registry/thejaynetwork/logo.png"
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/jay.png"
     }
   ],
   "addr_prefix": "yjay",
   "theme_color": "#2563eb",
-  "logo": "https://raw.githubusercontent.com/bbtccore/thejaynetwork/refs/heads/master/chain-registry/thejaynetwork/logo.png"
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/jay.png"
 }
