@@ -24,7 +24,7 @@
       "logo": ""
     }
   ],
-  "addr_prefix": "safro",
+  "addr_prefix": "addr_safro",
   "theme_color": "#812cd6",
   "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/safrochain-logo.png"
 }
