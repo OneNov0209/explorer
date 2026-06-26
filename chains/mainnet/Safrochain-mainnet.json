@@ -1,0 +1,30 @@
+{
+  "chain_name": "safrochain-1",
+  "api": [
+    {
+      "address": "https://api.safrochain.network",
+      "provider": "Safrochain Foundation"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.safrochain.network",
+      "provider": "Safrochain Foundation"
+    }
+  ],
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "0.03",
+  "assets": [
+    {
+      "base": "usaf",
+      "symbol": "SAF",
+      "exponent": "6",
+      "coingecko_id": "safro",
+      "logo": ""
+    }
+  ],
+  "addr_prefix": "safro",
+  "theme_color": "#812cd6",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/safrochain-logo.png"
+}
