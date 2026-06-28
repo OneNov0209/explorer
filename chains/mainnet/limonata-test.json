@@ -5,12 +5,20 @@
     {
       "address": "https://rest.limonata.xyz",
       "provider": "Limonata"
+    },
+    {
+      "address": "https://api.limo-test.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
       "address": "https://cosmos-rpc.limonata.xyz",
       "provider": "Limonata"
+    },
+    {
+      "address": "https://rpc.limo-test.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "sdk_version": "0.53.4",
