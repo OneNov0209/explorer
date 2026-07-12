@@ -1,0 +1,30 @@
+{
+  "chain_name": "nexarail-mainnet",
+  "api": [
+    {
+      "address": "https://m-nexarail.api.utsa.tech",
+      "provider": "UTSA"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://m-nexarail.rpc.utsa.tech",
+      "provider": "UTSA"
+    }
+  ],
+  "sdk_version": "0.47.16",
+  "coin_type": "118",
+  "min_tx_fee": "25000",
+  "assets": [
+    {
+      "base": "unxrl",
+      "symbol": "NXRL",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/nexarail-logo.png"
+    }
+  ],
+  "addr_prefix": "nxr",
+  "theme_color": "#2563eb",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/nexarail-logo.png"
+}
