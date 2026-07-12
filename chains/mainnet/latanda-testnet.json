@@ -1,0 +1,30 @@
+{
+  "chain_name": "latanda-testnet",
+  "api": [
+    {
+      "address": "https://api-latanda.test.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-latanda.test.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "ultd",
+      "symbol": "LTD",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/latanda.png"
+    }
+  ],
+  "addr_prefix": "ltd",
+  "theme_color": "#1F5FBF",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/latanda.png"
+}
