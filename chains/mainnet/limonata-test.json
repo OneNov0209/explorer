@@ -9,6 +9,10 @@
     {
       "address": "https://api.limo-test.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://api-testnet.limonata.cumulo.me",
+      "provider": "cumulo"
     }
   ],
   "rpc": [
@@ -19,6 +23,10 @@
     {
       "address": "https://rpc.limo-test.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://rpc-testnet.limonata.cumulo.me",
+      "provider": "cumulo"
     }
   ],
   "sdk_version": "0.53.4",
