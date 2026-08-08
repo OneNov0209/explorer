@@ -1,0 +1,38 @@
+{
+    "chain_name": "axiome",
+    "api": [
+        {
+            "address": "https://axm-lcd.trickle.pro/",
+            "provider": "Trickle"
+        },
+        {
+            "address": "https://rest.cosmos.directory/axiome",
+            "provider": "Cosmos Directory"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://api-chain.axiomechain.org/",
+            "provider": "Axiome"
+        },
+        {
+            "address": "https://rpc.cosmos.directory/axiome",
+            "provider": "Cosmos Directory"
+        }
+    ],
+    "sdk_version": "",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "assets": [
+        {
+            "base": "uaxm",
+            "symbol": "AXM",
+            "exponent": "6",
+            "coingecko_id": "axiome",
+            "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/axiome.png"
+        }
+    ],
+    "addr_prefix": "axiome",
+    "theme_color": "#FFD700",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/axiome.png"
+}
