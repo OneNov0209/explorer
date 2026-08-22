@@ -1,0 +1,28 @@
+{
+    "chain_name": "mucoin",
+    "api": [
+        {
+            "address": "https://rest.mucoin.org", 
+            "provider": "MuCoin Official"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://rpc.mucoin.org", 
+            "provider": "MuCoin Official"
+        }
+    ],
+    "sdk_version": "0.53.6",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "umuc",
+        "symbol": "MUC",
+        "exponent": "6",
+        "coingecko_id": "mucoin",
+        "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/mucoin.png"
+    }],
+    "addr_prefix": "muc",
+    "theme_color": "#FFD700",
+    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/mucoin.png"
+}
