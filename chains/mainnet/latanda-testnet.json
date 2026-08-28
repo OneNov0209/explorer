@@ -4,12 +4,20 @@
     {
       "address": "https://api-latanda.test.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://latanda-testnet-api.bonynode.online",
+      "provider": "bonynode"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc-latanda.test.onenov.xyz",
       "provider": "OneNov"
+    },
+    {
+      "address": "https://latanda-testnet-rpc.bonynode.online",
+      "provider": "bonynode"
     }
   ],
   "sdk_version": "0.53.4",
