@@ -6,8 +6,8 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://latanda-testnet-api.bonynode.online",
-      "provider": "bonynode"
+      "address": "https://latanda-apitest.codeblocklabs.com/",
+      "provider": "codeblocklabs"
     }
   ],
   "rpc": [
@@ -16,8 +16,8 @@
       "provider": "OneNov"
     },
     {
-      "address": "https://latanda-testnet-rpc.bonynode.online",
-      "provider": "bonynode"
+      "address": "https://latanda-rpctest.codeblocklabs.com/",
+      "provider": "codeblocklabs"
     }
   ],
   "sdk_version": "0.53.4",
