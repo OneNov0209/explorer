@@ -20,7 +20,7 @@
       "provider": "codeblocklabs"
     }
   ],
-  "sdk_version": "0.53.4",
+  "sdk_version": "0.53.6",
   "coin_type": "118",
   "min_tx_fee": "800",
   "assets": [
