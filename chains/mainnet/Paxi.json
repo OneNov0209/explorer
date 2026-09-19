@@ -2,19 +2,11 @@
     "chain_name": "paxi",
     "api": [
         {
-            "address": "https://rest.cosmos.directory/paxi",
-            "provider": "Cosmos Directory"
-        },
-        {
-            "address": "https://mainnet-lcd.paxinet.io/",
+            "address": "https://mainnet-lcd.paxinet.io",
             "provider": "PAXI"
         }
     ],
     "rpc": [
-        {
-            "address": "https://rpc.cosmos.directory/paxi",
-            "provider": "Cosmos Directory"
-        },
         {
             "address": "https://mainnet-rpc.paxinet.io",
             "provider": "PAXI"
