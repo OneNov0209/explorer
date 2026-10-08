@@ -4,12 +4,20 @@
         {
             "address": "https://mainnet-lcd.paxinet.io",
             "provider": "PAXI"
+        },
+        {
+            "address": "https://rest.cosmos.directory/paxi",
+            "provider": "Cosmos directory"
         }
     ],
     "rpc": [
         {
             "address": "https://mainnet-rpc.paxinet.io",
             "provider": "PAXI"
+        },
+        {
+            "address": "https://rpc.cosmos.directory/paxi",
+            "provider": "Cosmos directory"
         }
     ],
     "sdk_version": "0.53.0",
