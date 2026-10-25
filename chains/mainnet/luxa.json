@@ -4,12 +4,20 @@
     {
       "address": "https://api.luxaecosystem.xyz",
       "provider": "LUXA"
+    },
+    {
+      "address": "https://luxa-api.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc.luxaecosystem.xyz",
       "provider": "LUXA"
+    },
+    {
+      "address": "https://luxa-rpc.onenov.xyz",
+      "provider": "OneNov"
     }
   ],
   "sdk_version": "v0.50.10",
