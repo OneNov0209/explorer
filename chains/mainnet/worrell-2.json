@@ -1,0 +1,30 @@
+
+{
+  "chain_name": "worrell-2",
+  "api": [
+    {
+      "address": "https://api-worrell-test-2.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-worrell-test-2.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "sdk_version": "0.1.2",
+  "coin_type": "118",
+  "min_tx_fee": "0.025",
+  "assets": [
+    {
+      "base": "uworrell",
+      "symbol": "WORRELL",
+      "exponent": "6",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/Worrell-logo.png"
+    }
+  ],
+  "addr_prefix": "worrell",
+  "theme_color": "#FFD700",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/Worrell-logo.png"
+}
