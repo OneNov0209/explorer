@@ -1,0 +1,40 @@
+
+{
+  "chain_name": "limonata",
+  "chain_id": "limonata_20777-1",
+  "api": [
+    {
+      "address": "https://limonata-mainnet-api.bonynode.online/",
+      "provider": "BonyNode"
+    },
+    {
+      "address": "https://api.limonata.indonode.net/",
+      "provider": "IndoNode"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://cosmos-rpc.limonata.xyz/",
+      "provider": "Limonata"
+    },
+    {
+      "address": "https://limonata-mainnet-rpc.bonynode.online/",
+      "provider": "BonyNode"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "60",
+  "min_tx_fee": "0.01",
+  "assets": [
+    {
+      "base": "aLIMO",
+      "symbol": "LIMO",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "https://avatars.githubusercontent.com/u/189542709?v=4"
+    }
+  ],
+  "addr_prefix": "cosmos",
+  "theme_color": "#B7E11A",
+  "logo": "https://avatars.githubusercontent.com/u/189542709?v=4"
+}
