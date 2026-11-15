@@ -2,8 +2,8 @@
   "chain_name": "epix",
   "api": [
     {
-      "address": "https://epix-rest.stakerhouse.com",
-      "provider": "StakerHouse"
+      "address": "https://epix.api.m.anode.team",
+      "provider": "AlxVoy"
     },
     {
       "address": "https://api-epix.onenov.xyz",
