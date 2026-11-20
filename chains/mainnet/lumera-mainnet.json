@@ -24,7 +24,7 @@
   ],
   "sdk_version": "0.50.12",
   "cosmos_sdk_version": "v0.53.8",
-  "coin_type": "118",
+  "coin_type": "60",
   "min_tx_fee": "800",
   "assets": [
     {
