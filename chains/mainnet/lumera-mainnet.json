@@ -1,39 +1,41 @@
+
 {
-    "chain_name": "lumera",
-    "chain_id": "lumera-mainnet-1",
-    "api": [
-        {
-            "address": "https://lumera-api.polkachu.com",
-            "provider": "Polkachu"
-        },
-        {
-            "address": "https://api-lumera.mainnet.onenov.xyz",
-            "provider": "OneNov"
-        }
-    ],
-    "rpc": [
-        {
-            "address": "https://lumera-rpc.polkachu.com",
-            "provider": "Polkachu"
-        },
-        {
-            "address": "https://rpc-lumera.mainnet.onenov.xyz",
-            "provider": "OneNov"
-        }
-    ],
-    "sdk_version": "0.50.12",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "assets": [
-        {
-            "base": "ulume",
-            "symbol": "LUME",
-            "exponent": "6",
-            "coingecko_id": "unknown",
-            "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
-        }
-    ],
-    "addr_prefix": "lumera",
-    "theme_color": "#1A73E8",
-    "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
+  "chain_name": "lumera",
+  "chain_id": "lumera-mainnet-1",
+  "api": [
+    {
+      "address": "https://lumera-api.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://api-lumera.mainnet.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://lumera-rpc.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://rpc-lumera.mainnet.onenov.xyz",
+      "provider": "OneNov"
+    }
+  ],
+  "sdk_version": "0.50.12",
+  "cosmos_sdk_version": "v0.53.8",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "ulume",
+      "symbol": "LUME",
+      "exponent": "6",
+      "coingecko_id": "unknown",
+      "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
+    }
+  ],
+  "addr_prefix": "lumera",
+  "theme_color": "#1A73E8",
+  "logo": "https://raw.githubusercontent.com/OneNov0209/logo/refs/heads/main/lumera-logo.png"
 }
